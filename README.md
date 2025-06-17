@@ -15,20 +15,22 @@ I’m a passionate Software Engineer with a strong foundation in backend and ful
 
 ## 💼 Work Experience
 
-### Software Engineer — Cefalo Bangladesh Ltd.  
+### Software Engineer — [Cefalo AS](https://www.cefalo.com/en/)  
+*Norwegian Software Development Company*  
 **June 2022 – Present | Dhaka, Bangladesh (Onsite)**
 
-- Enabled internationalization in the Zaui online booking platform using Angular i18n, leading to acquisition of 20+ new global customers.
-- Reduced large archive import times from 6–7 minutes to under 1 minute using PostgreSQL indexing and Ehcache in-memory caching.
-- Developed a role-based public portal in ASTA and implemented CI/CD pipelines using Bitbucket Pipelines and Docker.
-- Built scalable background job handling for large document import/export using Spring and WebSockets with STOMP, enabling real-time progress updates.
-- Set up ELK stack (Elasticsearch, Logstash, Kibana) for monitoring and log analysis, improving system observability.
-- Collaborated in Agile teams to deliver features, fix bugs, and support customers.
-- Authored technical documentation to speed up onboarding, reducing ramp-up time by 50%.
+**Key Contributions:**
+
+- Enabled internationalization on the Zaui online booking platform using Angular i18n, driving acquisition of 20+ new global customers.
+- Optimized large archive imports by implementing PostgreSQL indexing and Ehcache in-memory caching, reducing processing time from 6–7 minutes to under 1 minute.
+- Developed a role-based public portal in ASTA and built CI/CD pipelines using Bitbucket Pipelines and Docker for efficient multi-container deployment.
+- Engineered scalable background job processing for large document import/export with Spring and WebSockets (STOMP), enabling real-time progress updates.
+- Established application monitoring and log analysis using the ELK stack (Elasticsearch, Logstash, Kibana), enhancing system observability and issue resolution speed.
+- Collaborated in Agile teams for feature development, bug fixing, and customer support to ensure product quality and timely delivery.
+- Authored comprehensive technical documentation, cutting new team member onboarding time by 50%.
 
 **Tech Stack:**  
 Java, Spring Boot, Kotlin, Hibernate, PostgreSQL, Angular, React, Docker, Redis, Azure, Jenkins, Bash Scripting, Git
-
 ---
 
 ## 🛠 Skills
