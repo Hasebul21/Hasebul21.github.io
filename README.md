@@ -49,12 +49,12 @@ Data Structures, Algorithms, System Design
 
 ## 🚀 Projects
 
-### QuickChat — Real-Time Chat Application
+### [QuickChat — Real-Time Chat Application](https://github.com/Hasebul21/quick-chat)  
 A full-stack real-time chat platform using WebSockets for live messaging, with Redis for performance and Elasticsearch for fast message retrieval.
 
 **Tech:** Java, Spring Boot, Angular, PostgreSQL, Redis, Elasticsearch, Docker
 
-### TODAYTECHBLOG — Blog Management System
+### [TODAYTECHBLOG — Blog Management System](https://github.com/Hasebul21/TechBlog_RestAPI_Spring)  
 Built a full-stack blog system with full CRUD functionality and 90%+ unit test coverage across frontend and backend.
 
 **Tech:** Java, Spring Boot, React, MySQL
@@ -71,9 +71,16 @@ American International University-Bangladesh (AIUB)
 
 ## 🏆 Achievements
 
-- Solved over **2100+** programming problems across platforms like Codeforces, Atcoder, Codechef, and LeetCode.
-- Ranked in the **top 7.6% globally** on LeetCode with **700+ problems solved**.
+- 🧠 Solved over **2100+ programming problems** across multiple platforms  
+  🔗 [StopStalk Profile (WA_TLE)](https://www.stopstalk.com/user/profile/WA_TLE)
+
+- 💻 Ranked in the **top 7.6% globally on LeetCode**, with **800+ problems solved**  
+  🔗 [LeetCode Profile – Hasebul](https://leetcode.com/u/Hasebul/)
+
 - 🥉 **10th Place** – Intra AIUB Programming Contest (Fall 2021-22)  
-- 🏅 **6th Place** – AIUB CS Fest 2018 Programming Contest
+  🔗 [Contest Standings](https://oj.synapse0.com/standings.php?contest=1013)
+
+- 🏅 **6th Place** – AIUB CS Fest 2018 Programming Contest  
+  🔗 [Toph Contest Standings](https://toph.co/c/aiub-cs-fest-2018-j/standings)
 
 ---
