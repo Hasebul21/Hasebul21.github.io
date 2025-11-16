@@ -80,12 +80,12 @@ American International University–Bangladesh (AIUB)
 ### 📄 **Publications**
 
 #### **1. A Language Adaptive Framework for Fine-Grained Review Analysis Using Classical ML vs Transformer-based Architectures**  
-*Accepted – ICCCES 2026*
+*Submitted – ICSFT Bangalore 2026*
 
 Developed a language-adaptive framework for five-class Bangla sentiment analysis using both classical ML and transformer models. A curated dataset of 26,028 reviews underwent extensive Bangla-specific preprocessing and was evaluated across nine algorithms. Classical models (SVM, Random Forest) achieved top performance (95% accuracy), outperforming transformer architectures like RoBERTa (84%). The framework establishes a reproducible benchmark for Bangla NLP in low-resource environments.
 
 #### **2. AI-Enhanced Prediction of Respiratory Irritation from Biomass Combustion Byproducts**  
-*Submitted – ICSFT Bangalore 2026*
+*Accepted – ICCCES 2026*
 
 Built an integrative ML pipeline combining Random Forest and LSTM to predict respiratory irritation from biomass combustion exposure. Environmental metrics (PM2.5, NOx, VOCs) were fused with clinical biomarkers for real-time health risk stratification. Nitrogen oxides emerged as the most influential predictor, revealing mechanistic links between poor combustion efficiency and inflammation. Random Forest provided interpretability, while LSTM captured temporal exposure patterns.
 
