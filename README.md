@@ -1,110 +1,128 @@
-# Hasebul Hassan Chowdhury
+# 🧠 Hasebul Hassan Chowdhury
+**Software Engineer | Research-Oriented | AI × Software Systems**
 
-📍 Dhaka, Bangladesh  
-📞 +880 1758144856  
-📧 hasebulhassan21@gmail.com  
-🔗 [LinkedIn](https://linkedin.com/in/hasebul) | [GitHub](https://github.com/Hasebul21)
-
----
-
-## 👨‍💻 About Me
-
-Software Engineer with 3+ years of experience in backend and full-stack development. I specialize in building scalable, performant applications using **Java, Spring Boot, PostgreSQL, Angular**, and modern DevOps tooling. My work focuses on clean architecture, system optimization, and delivering reliable production-grade solutions. Passionate about engineering excellence, research, and continuous learning.
+📍 Dhaka, Bangladesh &nbsp;|&nbsp; 📞 +880 1758144856 &nbsp;|&nbsp; 📧 hasebulhassan21@gmail.com  
+🔗 [LinkedIn](https://linkedin.com/in/hasebul) &nbsp;•&nbsp; [GitHub](https://github.com/Hasebul21)
 
 ---
 
-## 💼 Work Experience
+## 👋 About Me
 
-### **Software Engineer — Cefalo AS**  
-*June 2022 – Present | Dhaka, Bangladesh*
+I am a **Software Engineer with 3+ years of experience** building **scalable, high-performance backend and full-stack systems** for real-world, production environments. My core expertise includes **Java, Spring Boot, PostgreSQL, Angular**, and modern **DevOps and cloud tooling**, with a strong focus on clean architecture, performance optimization, and system reliability.
 
-Cefalo is a Norwegian software development company serving enterprise clients across Europe.
+I enjoy working at the intersection of **software engineering, system optimization, and applied AI**. Alongside enterprise development, I actively explore **agentic AI, explainable machine learning, and AI-assisted developer tools**, aiming to build intelligent systems that improve software quality, reduce operational overhead, and support data-driven decision-making.
 
-**Key Contributions:**
+---
 
-- Implemented **Angular i18n** for Zaui’s online booking platform, enabling onboarding of **20+ global customers**.  
-- Improved large archive ingestion using PostgreSQL indexing and **Ehcache caching**, reducing processing time from **6–7 minutes to under 1 minute**.  
-- Built a **role-based public portal** for ASTA with automated deployments using **Bitbucket Pipelines + Docker**.  
-- Designed scalable **background job processing** for bulk document operations with **Spring + WebSockets (STOMP)**.  
-- Implemented **ELK (Elasticsearch–Logstash–Kibana)** to enhance observability and accelerate issue diagnosis.  
-- Contributed to Agile development, bug fixing, customer support, and feature delivery.  
-- Wrote technical documentation that reduced new developer onboarding time by **50%**.
+## 💼 Professional Experience
+
+### **Software Engineer — Cefalo AS**
+🗓 *June 2022 – Present* &nbsp;|&nbsp; 📍 Dhaka, Bangladesh  
+
+*Cefalo is a Norwegian software development company serving enterprise clients across Europe.*
+
+#### 🔹 Key Impact
+- Delivered **full-stack features and system optimizations** across multiple production platforms, improving reliability, performance, and maintainability.  
+- Optimized **Zaui.com** data pipelines, achieving an **85% reduction in processing time** using PostgreSQL advanced indexing and caching.  
+- Designed scalable **background job processing** for bulk document operations using **Spring Boot + WebSockets (STOMP)**.  
+- Implemented centralized **ELK (Elasticsearch–Logstash–Kibana)** observability for **stiftelsenasta.no**, significantly accelerating issue diagnosis.  
+- Built an **internationalization (i18n) framework** enabling global expansion across **20+ markets**.  
+- Developed internal tooling including a **Generative-AI Chrome extension** (LangChain WebURLLoader) and an **AI-powered admin chatbot**.  
+- Designed and deployed **RBAC systems** across multiple applications and supported **CI/CD pipelines** using **Docker + Bitbucket**.
 
 **Tech Stack:**  
-Java, Spring Boot, Kotlin, Hibernate, PostgreSQL, Angular, React, Docker, Redis, Azure, Jenkins, Bash
+`Java` `Spring Boot` `Kotlin` `Hibernate` `PostgreSQL` `Angular` `Docker` `Redis` `AWS` `Jenkins` `LangChain` `RAG` `Vector DBs`
 
 ---
 
-## 🛠 Skills
+## 🛠 Technical Skills
 
-**Languages & Frameworks:**  
-Java, Kotlin, JavaScript, TypeScript, C++, C, Spring Boot, Spring Batch, Spring Data JPA, Hibernate, Angular, React, NestJS
+### ⚙️ Languages & Frameworks
+Java · Kotlin · TypeScript · JavaScript · C++ · Spring Boot · Spring Data JPA · Hibernate · Angular · React · NestJS
 
-**Databases:**  
-PostgreSQL, MySQL, MongoDB, Oracle DB, Redis, Elasticsearch
+### 🗄 Databases & Search
+PostgreSQL · MySQL · MongoDB · Oracle · Redis · Elasticsearch
 
-**Tools & Platforms:**  
-Docker, Jenkins, Azure, Git, Bash, Jira
+### 🤖 AI / ML Systems
+LLMs · RAG · Prompt Engineering · LangChain · LangGraph · FAISS · Chroma · Basic NLP Pipelines
 
-**Core Concepts:**  
-Data Structures, Algorithms, System Design
+### 🧰 DevOps & Tooling
+Docker · Jenkins · Azure · Git · Bash · Jira
+
+### 🧩 Core Foundations
+Data Structures · Algorithms · System Design · Distributed Systems · Caching & Indexing
 
 ---
 
-## 🚀 Projects
+## 🚀 Selected Projects
 
-### **QuickChat — Real-Time Chat Application**  
-Real-time chat platform with WebSockets, Redis caching, and Elasticsearch-based message search.
+### **QuickChat — Real-Time Messaging Platform**
+Real-time chat system with WebSockets, Redis caching, and Elasticsearch-based message search.
 
-**Tech:** Java, Spring Boot, Angular, PostgreSQL, Redis, Elasticsearch, Docker  
+**Tech:** Java · Spring Boot · Angular · PostgreSQL · Redis · Elasticsearch · Docker  
 🔗 https://github.com/Hasebul21/quick-chat
 
 ---
 
-### **TODAYTECHBLOG — Blog Management System**  
-Full-stack blog application with full CRUD operations and **90%+ unit test coverage**.
+### **TODAYTECHBLOG — Blog Management System**
+Full-stack blogging platform with complete CRUD functionality and **90%+ unit test coverage**.
 
-**Tech:** Java, Spring Boot, React, MySQL  
+**Tech:** Java · Spring Boot · React · MySQL  
 🔗 https://github.com/Hasebul21/TechBlog_RestAPI_Spring
 
 ---
 
-## 🎓 Education
+## 📄 Publications
 
-**B.Sc. in Computer Science and Engineering (CSE)**  
-American International University–Bangladesh (AIUB)  
-*2018 – 2022 | CGPA: 3.58/4.00*
+### **Machine Learning-Based Early Risk Stratification Framework for Chronic Kidney Disease Progression**  
+*(2024–2025)* — 🟢 **IEEE ICSFT 2026 (Accepted, Oral Presentation)**  
 
----
-
-### 📄 **Publications**
-
-#### **1. A Language Adaptive Framework for Fine-Grained Review Analysis Using Classical ML vs Transformer-based Architectures**  
-*Submitted – ICSFT Bangalore 2026*
-
-Developed a language-adaptive framework for five-class Bangla sentiment analysis using both classical ML and transformer models. A curated dataset of 26,028 reviews underwent extensive Bangla-specific preprocessing and was evaluated across nine algorithms. Classical models (SVM, Random Forest) achieved top performance (95% accuracy), outperforming transformer architectures like RoBERTa (84%). The framework establishes a reproducible benchmark for Bangla NLP in low-resource environments.
-
-#### **2. AI-Enhanced Prediction of Respiratory Irritation from Biomass Combustion Byproducts**  
-*Accepted – ICCCES 2026*
-
-Built an integrative ML pipeline combining Random Forest and LSTM to predict respiratory irritation from biomass combustion exposure. Environmental metrics (PM2.5, NOx, VOCs) were fused with clinical biomarkers for real-time health risk stratification. Nitrogen oxides emerged as the most influential predictor, revealing mechanistic links between poor combustion efficiency and inflammation. Random Forest provided interpretability, while LSTM captured temporal exposure patterns.
-
-#### **3. Comparative Machine Learning Analysis of Gen Z’s Sustainable Fashion Adoption in Bangladesh**  
-*Preparing for Submission*
-
-Designed a comparative ML framework to model sustainable fashion adoption among Gen Z using five algorithms and structured feature engineering. Gradient Boosting achieved the best results (85% accuracy, 75% F1, 90% AUC), effectively capturing nonlinear behavioral interactions. SHAP analysis highlighted affordability and promotional influence as key adoption drivers, challenging traditional attitude-based assumptions and supporting evidence-driven sustainability planning.
+Proposed a machine learning–based early risk stratification framework for chronic kidney disease progression using comprehensive multi-domain clinical and biochemical data. Integrated demographic attributes, laboratory biomarkers, and longitudinal clinical indicators to model disease progression across CKD stages. Conducted a comparative evaluation of multiple ML models to support early identification of high-risk patients and enable clinically actionable, data-driven decision support.
 
 ---
 
+### **AI-Enhanced Prediction of Respiratory Irritation from Biomass Combustion Byproducts**  
+*(2024–2025)* — 🟢 **ICCCES 2026 (Accepted)**  
+
+Developed an integrative machine learning pipeline combining **Random Forest** and **LSTM** models to predict respiratory irritation from biomass combustion exposure. Fused environmental metrics (PM2.5, NOx, VOCs) with clinical biomarkers for real-time health risk stratification. Identified **nitrogen oxides** as the most influential predictor, revealing mechanistic links between combustion inefficiency and inflammatory response.
+
+---
+
+### **Comparative Machine Learning Analysis of Gen Z’s Clothing Consumption Behavior**  
+*(2025)* — 🟡 **IEEE ICSFT Bangalore 2026 (Submitted)**  
+
+Conducted a comparative machine learning study to predict sustainable fashion adoption among Gen Z consumers in Bangladesh. Evaluated **Logistic Regression, Decision Tree, Random Forest, Gradient Boosting, and SVM** using systematic feature engineering and cross-validation. **Gradient Boosting** achieved the best performance (85% accuracy, 75% F1-score, 90% AUC). Applied **SHAP-based explainability** to identify economic affordability and promotional dependency as the most influential behavioral factors, highlighting affordability as a key barrier to adoption.
+
+---
 
 ## 🏆 Achievements
 
-- Solved **2100+ competitive programming problems**  
+- 🧮 **2100+ competitive programming problems solved**  
   🔗 https://www.stopstalk.com/user/profile/WA_TLE  
-- Ranked in the **Top 7.6% globally on LeetCode** with **800+ problems solved**  
+- 🥇 **Top 7.6% globally on LeetCode** (800+ problems)  
   🔗 https://leetcode.com/u/Hasebul/  
-- **10th Place** – Intra AIUB Programming Contest (Fall 2021–22)  
-- **6th Place** – AIUB CS Fest 2018 Programming Contest  
+- 🏅 **10th Place** — Intra AIUB Programming Contest (Fall 2021–22)  
+  🔗 https://oj.synapse0.com/standings.php?contest=1013  
+- 🏅 **6th Place** — AIUB CS Fest 2018 Programming Contest  
+  🔗 https://toph.co/c/aiub-cs-fest-2018-j/standings?start=0  
 
 ---
 
+## 🔬 Research Interests
+
+- Agentic AI for **software engineering workflows** (auto ticketing, requirement clarification, developer assistants)  
+- **Bias detection and mitigation** in large language models  
+- Intelligent **warning prioritization for static code analysis tools**  
+- AI for **health & environmental risk prediction**  
+- **Explainable ML** for decision support (SHAP, feature attribution)  
+- Data-driven modeling of **sustainability & consumer behavior**  
+- **Time-series and multimodal learning** across clinical & environmental signals  
+
+---
+
+## 🌐 Languages
+
+| Language | Proficiency |
+|--------|-------------|
+| Bengali | Native |
+| English | Fluent (Professional) |
