@@ -55,67 +55,83 @@
         </div>
     </section>
 
-    <section class="section section-navy" id="achievements">
+    <section class="section" id="achievements">
         <div class="wrap">
-            <div class="ach-grid">
-                <div class="ach reveal">
-                    <div class="icon-chip"><svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <polyline points="16 18 22 12 16 6" />
-                            <polyline points="8 6 2 12 8 18" />
-                        </svg></div>
+            <div style="display: grid; gap: 2rem;">
+                <!-- Competitive Programming -->
+                <article class="card card-hover" style="padding: 2rem; display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: center; reveal">
                     <div>
-                        <div class="a-title">2100+ competitive programming problems solved</div>
-                        <div class="a-sub"><a href="https://www.stopstalk.com/user/profile/WA_TLE" target="_blank"
-                                rel="noopener">stopstalk.com/user/profile/WA_TLE</a></div>
+                        <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
+                            <svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 28px; height: 28px;">
+                                <polyline points="16 18 22 12 16 6" />
+                                <polyline points="8 6 2 12 8 18" />
+                            </svg>
+                            <h3 style="margin: 0; font-size: 1.5rem; font-weight: 600;">2100+</h3>
+                        </div>
+                        <p style="margin: 0 0 0.5rem 0; font-size: 1.1rem; line-height: 1.5;">Competitive Programming Problems Solved</p>
+                        <p style="margin: 0.5rem 0 0 0; color: var(--text-secondary); font-size: 0.95rem;">Across Codeforces, CodeChef, HackerRank, UVA, and LightOJ</p>
+                        <a href="https://www.stopstalk.com/user/profile/WA_TLE" target="_blank" rel="noopener" style="display: inline-block; margin-top: 1rem; padding: 0.5rem 1rem; background: var(--bg-secondary); border-radius: 0.5rem; text-decoration: none; font-size: 0.9rem; font-weight: 500;">View Profile →</a>
                     </div>
-                </div>
+                    <div style="text-align: center; padding: 2rem; background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(139, 92, 246, 0.1) 100%); border-radius: 1rem;">
+                        <div style="font-size: 3rem; font-weight: 700; color: var(--accent-blue); margin-bottom: 0.5rem;">2100+</div>
+                        <div style="font-size: 0.9rem; color: var(--text-secondary);">Problems Solved</div>
+                    </div>
+                </article>
 
-                <div class="ach reveal">
-                    <div class="icon-chip"><svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <polygon
-                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                        </svg></div>
-                    <div>
-                        <div class="a-title">Top 7.6% globally on LeetCode (800+ problems)</div>
-                        <div class="a-sub"><a href="https://leetcode.com/u/Hasebul/" target="_blank"
-                                rel="noopener">leetcode.com/u/Hasebul</a></div>
+                <!-- LeetCode -->
+                <article class="card card-hover" style="padding: 2rem; display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: center;">
+                    <div style="text-align: center; padding: 2rem; background: linear-gradient(135deg, rgba(251, 191, 36, 0.1) 0%, rgba(59, 130, 246, 0.1) 100%); border-radius: 1rem;">
+                        <div style="font-size: 3rem; font-weight: 700; color: var(--accent-yellow); margin-bottom: 0.5rem;">7.6%</div>
+                        <div style="font-size: 0.9rem; color: var(--text-secondary);">Global Ranking</div>
                     </div>
-                </div>
+                    <div>
+                        <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
+                            <svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 28px; height: 28px;">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                            </svg>
+                            <h3 style="margin: 0; font-size: 1.5rem; font-weight: 600;">Top 7.6%</h3>
+                        </div>
+                        <p style="margin: 0 0 0.5rem 0; font-size: 1.1rem; line-height: 1.5;">Globally on LeetCode</p>
+                        <p style="margin: 0.5rem 0 0 0; color: var(--text-secondary); font-size: 0.95rem;">Solved 800+ problems with consistent problem-solving</p>
+                        <a href="https://leetcode.com/u/Hasebul/" target="_blank" rel="noopener" style="display: inline-block; margin-top: 1rem; padding: 0.5rem 1rem; background: var(--bg-secondary); border-radius: 0.5rem; text-decoration: none; font-size: 0.9rem; font-weight: 500;">View Profile →</a>
+                    </div>
+                </article>
 
-                <div class="ach reveal">
-                    <div class="icon-chip"><svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" />
-                            <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" />
-                            <path d="M4 22h16" />
-                            <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" />
-                            <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" />
-                            <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" />
-                        </svg></div>
-                    <div>
-                        <div class="a-title">10th Place — Intra AIUB Programming Contest (Fall 2021–22)</div>
-                        <div class="a-sub"><a href="https://oj.synapse0.com/standings.php?contest=1013" target="_blank"
-                                rel="noopener">oj.synapse0.com — standings</a></div>
-                    </div>
-                </div>
+                <!-- Contest Wins -->
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+                    <article class="card card-hover" style="padding: 1.75rem;">
+                        <div style="display: flex; align-items: flex-start; gap: 1rem;">
+                            <div style="width: 56px; height: 56px; background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple)); border-radius: 0.75rem; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                                <svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="9" />
+                                    <path d="M12 7v5l3 2" />
+                                </svg>
+                            </div>
+                            <div>
+                                <div style="font-size: 0.85rem; color: var(--accent-blue); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.25rem;">Fall 2021–22</div>
+                                <h4 style="margin: 0 0 0.5rem 0; font-size: 1.1rem; font-weight: 600;">10th Place</h4>
+                                <p style="margin: 0; color: var(--text-secondary); font-size: 0.9rem;">Intra AIUB Programming Contest</p>
+                                <a href="https://oj.synapse0.com/standings.php?contest=1013" target="_blank" rel="noopener" style="display: inline-block; margin-top: 0.75rem; font-size: 0.85rem; color: var(--accent-blue); text-decoration: none; font-weight: 500;">View Standings →</a>
+                            </div>
+                        </div>
+                    </article>
 
-                <div class="ach reveal">
-                    <div class="icon-chip"><svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" />
-                            <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" />
-                            <path d="M4 22h16" />
-                            <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" />
-                            <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" />
-                            <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" />
-                        </svg></div>
-                    <div>
-                        <div class="a-title">6th Place — AIUB CS Fest 2018 Programming Contest</div>
-                        <div class="a-sub"><a href="https://toph.co/c/aiub-cs-fest-2018-j/standings?start=0"
-                                target="_blank" rel="noopener">toph.co — standings</a></div>
-                    </div>
+                    <article class="card card-hover" style="padding: 1.75rem;">
+                        <div style="display: flex; align-items: flex-start; gap: 1rem;">
+                            <div style="width: 56px; height: 56px; background: linear-gradient(135deg, var(--accent-purple), var(--accent-blue)); border-radius: 0.75rem; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                                <svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="9" />
+                                    <path d="M12 7v5l3 2" />
+                                </svg>
+                            </div>
+                            <div>
+                                <div style="font-size: 0.85rem; color: var(--accent-purple); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.25rem;">2018</div>
+                                <h4 style="margin: 0 0 0.5rem 0; font-size: 1.1rem; font-weight: 600;">6th Place</h4>
+                                <p style="margin: 0; color: var(--text-secondary); font-size: 0.9rem;">AIUB CS Fest Programming Contest</p>
+                                <a href="https://toph.co/c/aiub-cs-fest-2018-j/standings?start=0" target="_blank" rel="noopener" style="display: inline-block; margin-top: 0.75rem; font-size: 0.85rem; color: var(--accent-purple); text-decoration: none; font-weight: 500;">View Standings →</a>
+                            </div>
+                        </div>
+                    </article>
                 </div>
             </div>
         </div>
