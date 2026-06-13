@@ -23,7 +23,6 @@
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap"
         rel="stylesheet" />
 
-    <link rel="icon" type="image/jpeg" href="/assets/img/hasebul.jpeg" />
     <link rel="stylesheet" href="/assets/css/style.css" />
 </head>
 
@@ -32,21 +31,19 @@
     <!-- ===================== NAV ===================== -->
     <header class="nav">
         <div class="wrap nav-inner">
-            <a href="#top" class="brand" aria-label="Hasebul Hassan Chowdhury — home">
-                <span class="dot-stack" aria-hidden="true">
-                    <span class="d-green"></span><span class="d-cyan"></span><span class="d-navy"></span>
-                </span>
+            <a href="index.html" class="brand" aria-label="Hasebul Hassan Chowdhury — home">
                 <span class="name-short">Hasebul</span>
             </a>
 
             <nav class="nav-links" id="navLinks" aria-label="Primary">
-                <a class="nav-link" href="#about">About</a>
-                <a class="nav-link" href="#experience">Experience</a>
-                <a class="nav-link" href="#skills">Skills</a>
-                <a class="nav-link" href="#projects">Projects</a>
-                <a class="nav-link" href="#publications">Publications</a>
-                <a class="nav-link" href="#research">Research</a>
-                <a class="nav-link btn btn-primary" href="#contact">Contact</a>
+                <a class="nav-link" data-page="about.html" href="about.html">About</a>
+                <a class="nav-link" data-page="experience.html" href="experience.html">Experience</a>
+                <a class="nav-link" data-page="skills.html" href="skills.html">Skills</a>
+                <a class="nav-link" data-page="projects.html" href="projects.html">Projects</a>
+                <a class="nav-link" data-page="publications.html" href="publications.html">Publications</a>
+                <a class="nav-link" data-page="research.html" href="research.html">Research</a>
+                <a class="nav-link" data-page="achievements.html" href="achievements.html">Achievements</a>
+                <a class="nav-link btn btn-primary" data-page="contact.html" href="contact.html">Contact</a>
             </nav>
 
             <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-controls="navLinks"
@@ -98,14 +95,15 @@
                 </div>
 
                 <div class="hero-cta">
-                    <a class="btn btn-reverse" href="#contact">
-                        Get in touch
+                    <a class="btn btn-reverse" href="about.html">
+                        Read more about me
                         <svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                             stroke-linecap="round" stroke-linejoin="round">
                             <line x1="5" y1="12" x2="19" y2="12" />
                             <polyline points="12 5 19 12 12 19" />
                         </svg>
                     </a>
+                    <a class="btn btn-ghost-light" href="experience.html">View experience</a>
                     <a class="btn btn-ghost-light" href="https://linkedin.com/in/hasebul" target="_blank"
                         rel="noopener">
                         <svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -129,12 +127,7 @@
 
             <div class="hero-photo reveal">
                 <img src="/assets/img/hasebul.jpeg" alt="Portrait of Hasebul Hassan Chowdhury" />
-                <span class="photo-tag">
-                    <span class="dot-stack" aria-hidden="true">
-                        <span class="d-green"></span><span class="d-cyan"></span><span class="d-navy"></span>
-                    </span>
-                    Engineer · Builder
-                </span>
+                <span class="photo-tag">Engineer · Builder</span>
             </div>
         </div>
     </section>
@@ -163,482 +156,82 @@
         </div>
     </section>
 
-    <!-- ===================== ABOUT ===================== -->
-    <section class="section" id="about">
+    <!-- ===================== EXPLORE (cross-page CTA) ===================== -->
+    <section class="section" id="explore">
         <div class="wrap">
             <header class="section-head reveal">
-                <div class="eyebrow-row"><span class="eyebrow">About</span></div>
-                <h2 class="display-m">Engineer at the intersection of <span class="text-navy">software systems</span>
-                    and <span class="text-green">applied AI</span>.</h2>
-            </header>
-
-            <div class="about-grid">
-                <div class="reveal">
-                    <p>I am a <strong>Software Engineer with 3+ years of experience</strong> building <strong>scalable,
-                            high-performance backend and full-stack systems</strong> for real-world, production
-                        environments. My core expertise includes <strong>Java, Spring Boot, PostgreSQL,
-                            Angular</strong>, and modern <strong>DevOps and cloud tooling</strong>, with a strong focus
-                        on clean architecture, performance optimization, and system reliability.</p>
-                    <p>I enjoy working at the intersection of <strong>software engineering, system optimization, and
-                            applied AI</strong>. Alongside enterprise development, I actively explore <strong>agentic
-                            AI, explainable machine learning, and AI-assisted developer tools</strong> — aiming to build
-                        intelligent systems that improve software quality, reduce operational overhead, and support
-                        data-driven decision-making.</p>
-                </div>
-
-                <aside class="focus-card reveal" aria-label="Current focus">
-                    <h3>Currently focused on</h3>
-                    <ul class="focus-list">
-                        <li><svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="20 6 9 17 4 12" />
-                            </svg>Agentic AI for software engineering workflows</li>
-                        <li><svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="20 6 9 17 4 12" />
-                            </svg>Bias detection &amp; mitigation in LLMs</li>
-                        <li><svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="20 6 9 17 4 12" />
-                            </svg>Warning prioritization for static code analysis</li>
-                        <li><svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="20 6 9 17 4 12" />
-                            </svg>Explainable ML for decision support</li>
-                        <li><svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="20 6 9 17 4 12" />
-                            </svg>Time-series &amp; multimodal learning</li>
-                    </ul>
-                </aside>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===================== EXPERIENCE ===================== -->
-    <section class="section section-mist" id="experience">
-        <div class="wrap">
-            <header class="section-head reveal">
-                <div class="eyebrow-row"><span class="eyebrow">Experience</span></div>
-                <h2 class="display-m">Shipping production systems that move real numbers.</h2>
-            </header>
-
-            <article class="exp reveal">
-                <div class="exp-meta">
-                    <div class="company">Cefalo AS</div>
-                    <div class="when mono">Jun 2022 — Present</div>
-                    <div class="where">Dhaka, Bangladesh</div>
-                    <p class="blurb">Norwegian software development company serving enterprise clients across Europe.
-                    </p>
-                </div>
-
-                <div class="exp-body">
-                    <h3 class="heading-m" style="margin-bottom:18px;">Software Engineer</h3>
-                    <ul class="impact">
-                        <li><svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="9 11 12 14 22 4" />
-                                <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" />
-                            </svg><span>Delivered <b>full-stack features and system optimizations</b> across multiple
-                                production platforms, improving reliability, performance, and maintainability.</span>
-                        </li>
-                        <li><svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
-                            </svg><span>Optimized <b>Zaui.com</b> data pipelines, achieving an <b>85% reduction in
-                                    processing time</b> using PostgreSQL advanced indexing and caching.</span></li>
-                        <li><svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round">
-                                <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
-                                <line x1="8" y1="21" x2="16" y2="21" />
-                                <line x1="12" y1="17" x2="12" y2="21" />
-                            </svg><span>Designed scalable <b>background job processing</b> for bulk document operations
-                                using <b>Spring Boot + WebSockets (STOMP)</b>.</span></li>
-                        <li><svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round">
-                                <circle cx="12" cy="12" r="10" />
-                                <line x1="2" y1="12" x2="22" y2="12" />
-                                <path
-                                    d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
-                            </svg><span>Implemented centralized <b>ELK (Elasticsearch–Logstash–Kibana)</b> observability
-                                for <b>stiftelsenasta.no</b>, significantly accelerating issue diagnosis.</span></li>
-                        <li><svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M3 7h18M3 12h18M3 17h18" />
-                            </svg><span>Built an <b>internationalization (i18n) framework</b> enabling global expansion
-                                across <b>20+ markets</b>.</span></li>
-                        <li><svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M12 2L2 7l10 5 10-5-10-5z" />
-                                <path d="M2 17l10 5 10-5" />
-                                <path d="M2 12l10 5 10-5" />
-                            </svg><span>Developed internal tooling including a <b>Generative-AI Chrome extension</b>
-                                (LangChain WebURLLoader) and an <b>AI-powered admin chatbot</b>.</span></li>
-                        <li><svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round">
-                                <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
-                                <path d="M7 11V7a5 5 0 0 1 10 0v4" />
-                            </svg><span>Designed and deployed <b>RBAC systems</b> across multiple applications and
-                                supported <b>CI/CD pipelines</b> using <b>Docker + Bitbucket</b>.</span></li>
-                    </ul>
-
-                    <div class="chips" aria-label="Tech stack">
-                        <span class="chip">Java</span><span class="chip">Spring Boot</span><span
-                            class="chip">Kotlin</span>
-                        <span class="chip">Hibernate</span><span class="chip">PostgreSQL</span><span
-                            class="chip">Angular</span>
-                        <span class="chip">Docker</span><span class="chip">Redis</span><span class="chip">AWS</span>
-                        <span class="chip">Jenkins</span><span class="chip">LangChain</span><span
-                            class="chip">RAG</span>
-                        <span class="chip">Vector DBs</span>
-                    </div>
-                </div>
-            </article>
-        </div>
-    </section>
-
-    <!-- ===================== SKILLS ===================== -->
-    <section class="section" id="skills">
-        <div class="wrap">
-            <header class="section-head reveal">
-                <div class="eyebrow-row"><span class="eyebrow">Technical skills</span></div>
-                <h2 class="display-m">A practical toolkit, sharpened on production work.</h2>
+                <div class="eyebrow-row"><span class="eyebrow">Explore</span></div>
+                <h2 class="display-m">Dive into the details.</h2>
+                <p class="lead">Each part of the portfolio lives on its own page — pick a thread.</p>
             </header>
 
             <div class="skills-grid">
-                <div class="card card-hover skill-card reveal">
-                    <h3><svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <polyline points="16 18 22 12 16 6" />
-                            <polyline points="8 6 2 12 8 18" />
-                        </svg>Languages &amp; Frameworks</h3>
-                    <p>Java · Kotlin · TypeScript · JavaScript · C++ · Spring Boot · Spring Data JPA · Hibernate ·
-                        Angular · React · NestJS</p>
-                </div>
-
-                <div class="card card-hover skill-card reveal">
-                    <h3><svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <ellipse cx="12" cy="5" rx="9" ry="3" />
-                            <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" />
-                            <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
-                        </svg>Databases &amp; Search</h3>
-                    <p>PostgreSQL · MySQL · MongoDB · Oracle · Redis · Elasticsearch</p>
-                </div>
-
-                <div class="card card-hover skill-card reveal">
-                    <h3><svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <circle cx="12" cy="12" r="4" />
-                            <path
-                                d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" />
-                        </svg>AI / ML Systems</h3>
-                    <p>LLMs · RAG · Prompt Engineering · LangChain · LangGraph · FAISS · Chroma · Basic NLP Pipelines
-                    </p>
-                </div>
-
-                <div class="card card-hover skill-card reveal">
-                    <h3><svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <path
-                                d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
-                        </svg>DevOps &amp; Tooling</h3>
-                    <p>Docker · Jenkins · Azure · Git · Bash · Jira</p>
-                </div>
-
-                <div class="card card-hover skill-card reveal">
+                <a class="card card-hover skill-card reveal" href="about.html">
                     <h3><svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                             stroke-linecap="round" stroke-linejoin="round">
                             <circle cx="12" cy="12" r="10" />
-                            <polygon points="10 8 16 12 10 16 10 8" />
-                        </svg>Core Foundations</h3>
-                    <p>Data Structures · Algorithms · System Design · Distributed Systems · Caching &amp; Indexing</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===================== PROJECTS ===================== -->
-    <section class="section section-mist" id="projects">
-        <div class="wrap">
-            <header class="section-head reveal">
-                <div class="eyebrow-row"><span class="eyebrow">Selected projects</span></div>
-                <h2 class="display-m">Things I built end-to-end.</h2>
-            </header>
-
-            <div class="projects-grid">
-                <article class="card card-hover project-card reveal">
-                    <div class="top">
-                        <h3>QuickChat</h3>
-                        <span class="chip mono">Real-time</span>
-                    </div>
-                    <p class="desc">Real-time messaging platform with WebSockets, Redis caching, and Elasticsearch-based
-                        message search.</p>
-                    <div class="chips">
-                        <span class="chip">Java</span><span class="chip">Spring Boot</span><span
-                            class="chip">Angular</span>
-                        <span class="chip">PostgreSQL</span><span class="chip">Redis</span><span
-                            class="chip">Elasticsearch</span>
-                        <span class="chip">Docker</span>
-                    </div>
-                    <a class="repo" href="https://github.com/Hasebul21/quick-chat" target="_blank" rel="noopener">
-                        <svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            <line x1="12" y1="16" x2="12" y2="12" />
+                            <line x1="12" y1="8" x2="12.01" y2="8" />
+                        </svg>About</h3>
+                    <p>Engineer at the intersection of software systems and applied AI.</p>
+                </a>
+                <a class="card card-hover skill-card reveal" href="experience.html">
+                    <h3><svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                             stroke-linecap="round" stroke-linejoin="round">
-                            <path
-                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
-                        </svg>
-                        View on GitHub
-                    </a>
-                </article>
-
-                <article class="card card-hover project-card reveal">
-                    <div class="top">
-                        <h3>TODAYTECHBLOG</h3>
-                        <span class="chip mono">90%+ tests</span>
-                    </div>
-                    <p class="desc">Full-stack blogging platform with complete CRUD functionality and 90%+ unit test
-                        coverage.</p>
-                    <div class="chips">
-                        <span class="chip">Java</span><span class="chip">Spring Boot</span><span
-                            class="chip">React</span>
-                        <span class="chip">MySQL</span>
-                    </div>
-                    <a class="repo" href="https://github.com/Hasebul21/TechBlog_RestAPI_Spring" target="_blank"
-                        rel="noopener">
-                        <svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
+                            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+                        </svg>Experience</h3>
+                    <p>Senior, Software and Associate Software Engineer roles at Cefalo, plus Web Developer at AIUB.</p>
+                </a>
+                <a class="card card-hover skill-card reveal" href="skills.html">
+                    <h3><svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                             stroke-linecap="round" stroke-linejoin="round">
-                            <path
-                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
-                        </svg>
-                        View on GitHub
-                    </a>
-                </article>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===================== PUBLICATIONS ===================== -->
-    <section class="section" id="publications">
-        <div class="wrap">
-            <header class="section-head reveal">
-                <div class="eyebrow-row"><span class="eyebrow">Publications</span></div>
-                <h2 class="display-m">Applied ML for health, environment, and behavior.</h2>
-            </header>
-
-            <div class="pubs">
-                <article class="card pub reveal">
-                    <div class="year mono">2024 — 2025</div>
-                    <div>
-                        <h3>Machine Learning–Based Early Risk Stratification Framework for Chronic Kidney Disease
-                            Progression</h3>
-                        <p>Proposed a machine learning–based early risk stratification framework for chronic kidney
-                            disease progression using comprehensive multi-domain clinical and biochemical data.
-                            Integrated demographic attributes, laboratory biomarkers, and longitudinal clinical
-                            indicators to model disease progression across CKD stages. Conducted a comparative
-                            evaluation of multiple ML models to support early identification of high-risk patients and
-                            enable clinically actionable, data-driven decision support.</p>
-                        <span class="status status-accepted">IEEE ICSFT 2026 · Accepted · Oral Presentation</span>
-                    </div>
-                </article>
-
-                <article class="card pub reveal">
-                    <div class="year mono">2024 — 2025</div>
-                    <div>
-                        <h3>AI-Enhanced Prediction of Respiratory Irritation from Biomass Combustion Byproducts</h3>
-                        <p>Developed an integrative machine learning pipeline combining <b>Random Forest</b> and
-                            <b>LSTM</b> models to predict respiratory irritation from biomass combustion exposure. Fused
-                            environmental metrics (PM2.5, NOx, VOCs) with clinical biomarkers for real-time health risk
-                            stratification. Identified <b>nitrogen oxides</b> as the most influential predictor,
-                            revealing mechanistic links between combustion inefficiency and inflammatory response.</p>
-                        <span class="status status-accepted">ICCCES 2026 · Accepted</span>
-                    </div>
-                </article>
-
-                <article class="card pub reveal">
-                    <div class="year mono">2025</div>
-                    <div>
-                        <h3>Comparative Machine Learning Analysis of Gen Z’s Clothing Consumption Behavior</h3>
-                        <p>Conducted a comparative machine learning study to predict sustainable fashion adoption among
-                            Gen Z consumers in Bangladesh. Evaluated <b>Logistic Regression, Decision Tree, Random
-                                Forest, Gradient Boosting, and SVM</b> using systematic feature engineering and
-                            cross-validation. <b>Gradient Boosting</b> achieved the best performance (85% accuracy, 75%
-                            F1-score, 90% AUC). Applied <b>SHAP-based explainability</b> to identify economic
-                            affordability and promotional dependency as the most influential behavioral factors,
-                            highlighting affordability as a key barrier to adoption.</p>
-                        <span class="status status-submitted">IEEE ICSFT Bangalore 2026 · Submitted</span>
-                    </div>
-                </article>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===================== RESEARCH ===================== -->
-    <section class="section section-mist" id="research">
-        <div class="wrap">
-            <header class="section-head reveal">
-                <div class="eyebrow-row"><span class="eyebrow">Research interests</span></div>
-                <h2 class="display-m">Where I'm reading, writing, and tinkering next.</h2>
-            </header>
-
-            <div class="research-grid">
-                <div class="research-item reveal"><svg class="lucide" viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="3" />
-                        <path
-                            d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h.01a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v.01a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z" />
-                    </svg>
-                    <p><b>Agentic AI for software engineering workflows</b> — auto ticketing, requirement clarification,
-                        developer assistants.</p>
-                </div>
-                <div class="research-item reveal"><svg class="lucide" viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-                    </svg>
-                    <p><b>Bias detection and mitigation</b> in large language models.</p>
-                </div>
-                <div class="research-item reveal"><svg class="lucide" viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path
-                            d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" />
-                        <line x1="12" y1="9" x2="12" y2="13" />
-                        <line x1="12" y1="17" x2="12.01" y2="17" />
-                    </svg>
-                    <p>Intelligent <b>warning prioritization for static code analysis</b> tools.</p>
-                </div>
-                <div class="research-item reveal"><svg class="lucide" viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
-                    </svg>
-                    <p>AI for <b>health &amp; environmental risk prediction</b>.</p>
-                </div>
-                <div class="research-item reveal"><svg class="lucide" viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="10" />
-                        <circle cx="12" cy="12" r="4" />
-                        <line x1="21.17" y1="8" x2="12" y2="8" />
-                        <line x1="3.95" y1="6.06" x2="8.54" y2="14" />
-                        <line x1="10.88" y1="21.94" x2="15.46" y2="14" />
-                    </svg>
-                    <p><b>Explainable ML</b> for decision support — SHAP, feature attribution.</p>
-                </div>
-                <div class="research-item reveal"><svg class="lucide" viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <polyline points="3 17 9 11 13 15 21 7" />
-                        <polyline points="14 7 21 7 21 14" />
-                    </svg>
-                    <p>Data-driven modeling of <b>sustainability &amp; consumer behavior</b>.</p>
-                </div>
-                <div class="research-item reveal"><svg class="lucide" viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <polyline points="22 7 13.5 15.5 8.5 10.5 2 17" />
-                        <polyline points="16 7 22 7 22 13" />
-                    </svg>
-                    <p><b>Time-series and multimodal learning</b> across clinical &amp; environmental signals.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===================== ACHIEVEMENTS ===================== -->
-    <section class="section section-navy" id="achievements">
-        <div class="wrap">
-            <header class="section-head reveal">
-                <div class="eyebrow-row"><span class="eyebrow">Achievements</span></div>
-                <h2 class="display-m">A long habit of solving problems.</h2>
-            </header>
-
-            <div class="ach-grid">
-                <div class="ach reveal">
-                    <div class="icon-chip"><svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <polyline points="16 18 22 12 16 6" />
                             <polyline points="8 6 2 12 8 18" />
-                        </svg></div>
-                    <div>
-                        <div class="a-title">2100+ competitive programming problems solved</div>
-                        <div class="a-sub"><a href="https://www.stopstalk.com/user/profile/WA_TLE" target="_blank"
-                                rel="noopener">stopstalk.com/user/profile/WA_TLE</a></div>
-                    </div>
-                </div>
-
-                <div class="ach reveal">
-                    <div class="icon-chip"><svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        </svg>Skills</h3>
+                    <p>Languages, frameworks, databases, AI/ML systems and DevOps tooling.</p>
+                </a>
+                <a class="card card-hover skill-card reveal" href="projects.html">
+                    <h3><svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                            <path d="M2 17l10 5 10-5" />
+                            <path d="M2 12l10 5 10-5" />
+                        </svg>Projects</h3>
+                    <p>End-to-end side projects: QuickChat and TODAYTECHBLOG.</p>
+                </a>
+                <a class="card card-hover skill-card reveal" href="publications.html">
+                    <h3><svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+                        </svg>Publications</h3>
+                    <p>Applied ML for CKD, biomass-combustion health risk, and Gen Z behavior.</p>
+                </a>
+                <a class="card card-hover skill-card reveal" href="research.html">
+                    <h3><svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8" />
+                            <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                        </svg>Research</h3>
+                    <p>Agentic AI for SE workflows, LLM bias, explainable ML and more.</p>
+                </a>
+                <a class="card card-hover skill-card reveal" href="achievements.html">
+                    <h3><svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
                             <polygon
                                 points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                        </svg></div>
-                    <div>
-                        <div class="a-title">Top 7.6% globally on LeetCode (800+ problems)</div>
-                        <div class="a-sub"><a href="https://leetcode.com/u/Hasebul/" target="_blank"
-                                rel="noopener">leetcode.com/u/Hasebul</a></div>
-                    </div>
-                </div>
-
-                <div class="ach reveal">
-                    <div class="icon-chip"><svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" />
-                            <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" />
-                            <path d="M4 22h16" />
-                            <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" />
-                            <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" />
-                            <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" />
-                        </svg></div>
-                    <div>
-                        <div class="a-title">10th Place — Intra AIUB Programming Contest (Fall 2021–22)</div>
-                        <div class="a-sub"><a href="https://oj.synapse0.com/standings.php?contest=1013" target="_blank"
-                                rel="noopener">oj.synapse0.com — standings</a></div>
-                    </div>
-                </div>
-
-                <div class="ach reveal">
-                    <div class="icon-chip"><svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" />
-                            <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" />
-                            <path d="M4 22h16" />
-                            <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" />
-                            <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" />
-                            <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" />
-                        </svg></div>
-                    <div>
-                        <div class="a-title">6th Place — AIUB CS Fest 2018 Programming Contest</div>
-                        <div class="a-sub"><a href="https://toph.co/c/aiub-cs-fest-2018-j/standings?start=0"
-                                target="_blank" rel="noopener">toph.co — standings</a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===================== CONTACT ===================== -->
-    <section class="section section-navy" id="contact">
-        <div class="wrap">
-            <div class="contact reveal">
-                <div class="eyebrow-row" style="justify-content:center;"><span class="eyebrow">Contact</span></div>
-                <h2 class="display-l">Let's build something useful.</h2>
-                <p>Reach out for roles, collaborations on applied AI / software systems research, or to chat about
-                    engineering and AI-assisted developer tools.</p>
-
-                <div class="contact-actions">
-                    <a class="btn btn-reverse" href="mailto:hasebulhassan21@gmail.com">
-                        <svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        </svg>Achievements</h3>
+                    <p>Competitive programming and contest history.</p>
+                </a>
+                <a class="card card-hover skill-card reveal" href="contact.html">
+                    <h3><svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                             stroke-linecap="round" stroke-linejoin="round">
                             <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
                             <polyline points="22,6 12,13 2,6" />
-                        </svg>
-                        hasebulhassan21@gmail.com
-                    </a>
-                    <a class="btn btn-ghost-light" href="https://linkedin.com/in/hasebul" target="_blank"
-                        rel="noopener">LinkedIn</a>
-                    <a class="btn btn-ghost-light" href="https://github.com/Hasebul21" target="_blank"
-                        rel="noopener">GitHub</a>
-                </div>
-
-                <div class="lang-row" aria-label="Languages">
-                    <span class="lang"><b>Bengali</b><span>Native</span></span>
-                    <span class="lang"><b>English</b><span>Fluent (Professional)</span></span>
-                </div>
+                        </svg>Contact</h3>
+                    <p>Email, LinkedIn, GitHub.</p>
+                </a>
             </div>
         </div>
     </section>
@@ -647,49 +240,24 @@
     <footer class="footer">
         <div class="wrap">
             <div class="footer-inner">
-                <a href="#top" class="brand">
-                    <span class="dot-stack" aria-hidden="true">
-                        <span class="d-green"></span><span class="d-cyan"></span><span class="d-navy"></span>
-                    </span>
+                <a href="index.html" class="brand">
                     <span class="name-short">Hasebul Hassan Chowdhury</span>
                 </a>
                 <nav class="footer-links" aria-label="Footer">
-                    <a href="#about">About</a>
-                    <a href="#experience">Experience</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#publications">Publications</a>
-                    <a href="#contact">Contact</a>
+                    <a href="about.html">About</a>
+                    <a href="experience.html">Experience</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="publications.html">Publications</a>
+                    <a href="achievements.html">Achievements</a>
+                    <a href="contact.html">Contact</a>
                 </nav>
             </div>
-            <div class="copy">© <span id="yr"></span> Hasebul Hassan Chowdhury · Built with the Cefalo design system.
+            <div class="copy">© <span id="yr"></span> Hasebul Hassan Chowdhury
             </div>
         </div>
     </footer>
 
-    <script>
-        // year
-        document.getElementById('yr').textContent = new Date().getFullYear();
-
-        // nav toggle (mobile)
-        const navToggle = document.getElementById('navToggle');
-        const navLinks = document.getElementById('navLinks');
-        if (navToggle && navLinks) {
-            navToggle.addEventListener('click', () => {
-                const open = navLinks.classList.toggle('open');
-                navToggle.setAttribute('aria-expanded', String(open));
-            });
-            navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
-                navLinks.classList.remove('open');
-                navToggle.setAttribute('aria-expanded', 'false');
-            }));
-        }
-
-        // reveal on scroll
-        const io = new IntersectionObserver(entries => {
-            entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
-        }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
-        document.querySelectorAll('.reveal').forEach(el => io.observe(el));
-    </script>
+    <script src="/assets/js/site.js"></script>
 </body>
 
 </html>
