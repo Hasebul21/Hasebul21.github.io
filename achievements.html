@@ -56,80 +56,61 @@
 
     <section class="section" id="achievements">
         <div class="wrap">
-            <div style="display: grid; gap: 2rem;">
-                <!-- Competitive Programming -->
-                <article class="card card-hover" style="padding: 2rem; display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: center; reveal">
-                    <div>
-                        <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
-                            <svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 28px; height: 28px;">
-                                <polyline points="16 18 22 12 16 6" />
-                                <polyline points="8 6 2 12 8 18" />
-                            </svg>
-                            <h3 style="margin: 0; font-size: 1.5rem; font-weight: 600;">2100+</h3>
-                        </div>
-                        <p style="margin: 0 0 0.5rem 0; font-size: 1.1rem; line-height: 1.5;">Competitive Programming Problems Solved</p>
-                        <p style="margin: 0.5rem 0 0 0; color: var(--text-secondary); font-size: 0.95rem;">Across Codeforces, CodeChef, HackerRank, UVA, and LightOJ</p>
-                        <a href="https://www.stopstalk.com/user/profile/WA_TLE" target="_blank" rel="noopener" style="display: inline-block; margin-top: 1rem; padding: 0.5rem 1rem; background: var(--bg-secondary); border-radius: 0.5rem; text-decoration: none; font-size: 0.9rem; font-weight: 500;">View Profile →</a>
-                    </div>
-                    <div style="text-align: center; padding: 2rem; background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(139, 92, 246, 0.1) 100%); border-radius: 1rem;">
-                        <div style="font-size: 3rem; font-weight: 700; color: var(--accent-blue); margin-bottom: 0.5rem;">2100+</div>
-                        <div style="font-size: 0.9rem; color: var(--text-secondary);">Problems Solved</div>
-                    </div>
-                </article>
+            <!-- Main Stats Grid -->
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-bottom: 3rem;">
+                <!-- Problems Solved Stat -->
+                <div class="reveal" style="background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%); border-radius: 1.5rem; padding: 2.5rem; color: white; text-align: center;">
+                    <div style="font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.1em; opacity: 0.9; margin-bottom: 1rem;">Competitive Programming</div>
+                    <div style="font-size: 4rem; font-weight: 800; line-height: 1; margin-bottom: 0.5rem;">2100+</div>
+                    <div style="font-size: 1.1rem; opacity: 0.95; margin-bottom: 1.5rem;">Problems Solved</div>
+                    <p style="margin: 0 0 1.5rem 0; font-size: 0.95rem; opacity: 0.9; line-height: 1.6;">Across Codeforces, CodeChef, HackerRank, UVA, and LightOJ</p>
+                    <a href="https://www.stopstalk.com/user/profile/WA_TLE" target="_blank" rel="noopener" style="display: inline-block; padding: 0.75rem 1.5rem; background: rgba(255,255,255,0.2); border-radius: 0.5rem; color: white; text-decoration: none; font-weight: 600; font-size: 0.9rem; border: 1px solid rgba(255,255,255,0.3); transition: all 0.3s;">View Profile</a>
+                </div>
 
-                <!-- LeetCode -->
-                <article class="card card-hover" style="padding: 2rem; display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: center;">
-                    <div style="text-align: center; padding: 2rem; background: linear-gradient(135deg, rgba(251, 191, 36, 0.1) 0%, rgba(59, 130, 246, 0.1) 100%); border-radius: 1rem;">
-                        <div style="font-size: 3rem; font-weight: 700; color: var(--accent-yellow); margin-bottom: 0.5rem;">7.6%</div>
-                        <div style="font-size: 0.9rem; color: var(--text-secondary);">Global Ranking</div>
-                    </div>
-                    <div>
-                        <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
-                            <svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 28px; height: 28px;">
-                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                            </svg>
-                            <h3 style="margin: 0; font-size: 1.5rem; font-weight: 600;">Top 7.6%</h3>
-                        </div>
-                        <p style="margin: 0 0 0.5rem 0; font-size: 1.1rem; line-height: 1.5;">Globally on LeetCode</p>
-                        <p style="margin: 0.5rem 0 0 0; color: var(--text-secondary); font-size: 0.95rem;">Solved 800+ problems with consistent problem-solving</p>
-                        <a href="https://leetcode.com/u/Hasebul/" target="_blank" rel="noopener" style="display: inline-block; margin-top: 1rem; padding: 0.5rem 1rem; background: var(--bg-secondary); border-radius: 0.5rem; text-decoration: none; font-size: 0.9rem; font-weight: 500;">View Profile →</a>
-                    </div>
-                </article>
+                <!-- LeetCode Stat -->
+                <div class="reveal" style="background: linear-gradient(135deg, #fbbf24 0%, #ec4899 100%); border-radius: 1.5rem; padding: 2.5rem; color: white; text-align: center;">
+                    <div style="font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.1em; opacity: 0.9; margin-bottom: 1rem;">LeetCode Global Ranking</div>
+                    <div style="font-size: 4rem; font-weight: 800; line-height: 1; margin-bottom: 0.5rem;">Top 7.6%</div>
+                    <div style="font-size: 1.1rem; opacity: 0.95; margin-bottom: 1.5rem;">800+ Problems</div>
+                    <p style="margin: 0 0 1.5rem 0; font-size: 0.95rem; opacity: 0.9; line-height: 1.6;">Consistent problem-solving across all difficulty levels</p>
+                    <a href="https://leetcode.com/u/Hasebul/" target="_blank" rel="noopener" style="display: inline-block; padding: 0.75rem 1.5rem; background: rgba(255,255,255,0.2); border-radius: 0.5rem; color: white; text-decoration: none; font-weight: 600; font-size: 0.9rem; border: 1px solid rgba(255,255,255,0.3); transition: all 0.3s;">View Profile</a>
+                </div>
+            </div>
 
-                <!-- Contest Wins -->
+            <!-- Contest Achievements -->
+            <div style="margin-top: 3rem;">
+                <div style="margin-bottom: 2rem;">
+                    <h2 style="margin: 0 0 0.5rem 0; font-size: 1.5rem; font-weight: 600;">Contest Wins</h2>
+                    <p style="margin: 0; color: var(--text-secondary);">Prize placements in competitive programming contests</p>
+                </div>
+
                 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
-                    <article class="card card-hover" style="padding: 1.75rem;">
-                        <div style="display: flex; align-items: flex-start; gap: 1rem;">
-                            <div style="width: 56px; height: 56px; background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple)); border-radius: 0.75rem; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-                                <svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <circle cx="12" cy="12" r="9" />
-                                    <path d="M12 7v5l3 2" />
-                                </svg>
-                            </div>
+                    <!-- 10th Place -->
+                    <article class="card card-hover reveal" style="padding: 2rem; border-left: 4px solid #3b82f6;">
+                        <div style="display: flex; align-items: baseline; gap: 1rem; margin-bottom: 1.5rem;">
+                            <div style="font-size: 2.5rem; font-weight: 800; color: #3b82f6;">10</div>
                             <div>
-                                <div style="font-size: 0.85rem; color: var(--accent-blue); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.25rem;">Fall 2021–22</div>
-                                <h4 style="margin: 0 0 0.5rem 0; font-size: 1.1rem; font-weight: 600;">10th Place</h4>
-                                <p style="margin: 0; color: var(--text-secondary); font-size: 0.9rem;">Intra AIUB Programming Contest</p>
-                                <a href="https://oj.synapse0.com/standings.php?contest=1013" target="_blank" rel="noopener" style="display: inline-block; margin-top: 0.75rem; font-size: 0.85rem; color: var(--accent-blue); text-decoration: none; font-weight: 500;">View Standings →</a>
+                                <div style="font-size: 0.85rem; color: #3b82f6; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Placement</div>
+                                <div style="font-size: 0.95rem; color: var(--text-secondary);">Fall 2021–22</div>
                             </div>
                         </div>
+                        <h3 style="margin: 0 0 0.5rem 0; font-size: 1.2rem; font-weight: 600;">Intra AIUB Programming Contest</h3>
+                        <p style="margin: 0 0 1.5rem 0; color: var(--text-secondary); font-size: 0.95rem;">Ranked among top competitors in the university-wide contest</p>
+                        <a href="https://oj.synapse0.com/standings.php?contest=1013" target="_blank" rel="noopener" style="display: inline-block; padding: 0.6rem 1.2rem; background: rgba(59, 130, 246, 0.1); color: #3b82f6; border-radius: 0.5rem; text-decoration: none; font-weight: 600; font-size: 0.9rem;">View Standings →</a>
                     </article>
 
-                    <article class="card card-hover" style="padding: 1.75rem;">
-                        <div style="display: flex; align-items: flex-start; gap: 1rem;">
-                            <div style="width: 56px; height: 56px; background: linear-gradient(135deg, var(--accent-purple), var(--accent-blue)); border-radius: 0.75rem; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-                                <svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <circle cx="12" cy="12" r="9" />
-                                    <path d="M12 7v5l3 2" />
-                                </svg>
-                            </div>
+                    <!-- 6th Place -->
+                    <article class="card card-hover reveal" style="padding: 2rem; border-left: 4px solid #8b5cf6;">
+                        <div style="display: flex; align-items: baseline; gap: 1rem; margin-bottom: 1.5rem;">
+                            <div style="font-size: 2.5rem; font-weight: 800; color: #8b5cf6;">6</div>
                             <div>
-                                <div style="font-size: 0.85rem; color: var(--accent-purple); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.25rem;">2018</div>
-                                <h4 style="margin: 0 0 0.5rem 0; font-size: 1.1rem; font-weight: 600;">6th Place</h4>
-                                <p style="margin: 0; color: var(--text-secondary); font-size: 0.9rem;">AIUB CS Fest Programming Contest</p>
-                                <a href="https://toph.co/c/aiub-cs-fest-2018-j/standings?start=0" target="_blank" rel="noopener" style="display: inline-block; margin-top: 0.75rem; font-size: 0.85rem; color: var(--accent-purple); text-decoration: none; font-weight: 500;">View Standings →</a>
+                                <div style="font-size: 0.85rem; color: #8b5cf6; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Placement</div>
+                                <div style="font-size: 0.95rem; color: var(--text-secondary);">2018</div>
                             </div>
                         </div>
+                        <h3 style="margin: 0 0 0.5rem 0; font-size: 1.2rem; font-weight: 600;">AIUB CS Fest Programming Contest</h3>
+                        <p style="margin: 0 0 1.5rem 0; color: var(--text-secondary); font-size: 0.95rem;">Strong performance in the annual computer science competition</p>
+                        <a href="https://toph.co/c/aiub-cs-fest-2018-j/standings?start=0" target="_blank" rel="noopener" style="display: inline-block; padding: 0.6rem 1.2rem; background: rgba(139, 92, 246, 0.1); color: #8b5cf6; border-radius: 0.5rem; text-decoration: none; font-weight: 600; font-size: 0.9rem;">View Standings →</a>
                     </article>
                 </div>
             </div>
