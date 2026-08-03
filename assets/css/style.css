@@ -1,7 +1,8 @@
 /* ============================================================
    Hasebul Hassan Chowdhury — Portfolio
-   Plain single-column layout. One typeface, one accent colour,
-   hairline rules. No gradients, shadows, or animation.
+   Journal-style pairing: Source Serif 4 for prose, Inter for
+   headings, navigation and metadata. One accent colour, hairline
+   rules. No gradients, shadows, or animation.
    ============================================================ */
 
 :root {
@@ -15,14 +16,17 @@
   --line: #E0E4E8;
   --line-soft: #EDF0F3;
 
-  --font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  /* prose */
+  --font-body: 'Source Serif 4', Charter, 'Bitstream Charter', Cambria, Georgia, serif;
+  /* headings, nav, metadata */
+  --font-display: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
 
   --wrap: 880px;
 }
 
 @supports (font-variation-settings: normal) {
   :root {
-    --font-body: 'InterVariable', system-ui, -apple-system, 'Segoe UI', sans-serif;
+    --font-display: 'InterVariable', system-ui, -apple-system, 'Segoe UI', sans-serif;
   }
 }
 
@@ -41,8 +45,9 @@ body {
   background: var(--paper);
   color: var(--ink);
   font-family: var(--font-body);
-  font-size: 1rem;
-  line-height: 1.6;
+  /* serif needs a touch more size than sans at the same optical weight */
+  font-size: 1.0625rem;
+  line-height: 1.65;
 }
 
 h1,
@@ -50,6 +55,7 @@ h2,
 h3,
 h4 {
   margin: 0;
+  font-family: var(--font-display);
   font-weight: 600;
   line-height: 1.3;
   letter-spacing: -0.01em;
@@ -97,11 +103,13 @@ ul {
 }
 
 .mono {
+  font-family: var(--font-display);
   font-variant-numeric: tabular-nums;
 }
 
 /* ============================================================ TYPE SCALE */
 .display-xl {
+  font-family: var(--font-display);
   font-size: 2rem;
   font-weight: 700;
   line-height: 1.2;
@@ -109,16 +117,19 @@ ul {
 }
 
 .display-l {
+  font-family: var(--font-display);
   font-size: 1.5rem;
   font-weight: 600;
 }
 
 .display-m {
+  font-family: var(--font-display);
   font-size: 1.375rem;
   font-weight: 600;
 }
 
 .heading-m {
+  font-family: var(--font-display);
   font-size: 1.0625rem;
   font-weight: 600;
 }
@@ -143,6 +154,7 @@ ul {
 }
 
 .brand {
+  font-family: var(--font-display);
   color: var(--ink);
   text-decoration: none;
   font-weight: 600;
@@ -160,6 +172,7 @@ ul {
 }
 
 .nav-link {
+  font-family: var(--font-display);
   font-size: 0.9375rem;
   color: var(--graphite);
   text-decoration: none;
@@ -175,6 +188,7 @@ ul {
 }
 
 .nav-toggle {
+  font-family: var(--font-display);
   display: none;
   background: none;
   border: 1px solid var(--line);
@@ -208,6 +222,7 @@ ul {
 }
 
 .hero .meta {
+  font-family: var(--font-display);
   margin-top: 16px;
   display: flex;
   flex-wrap: wrap;
@@ -217,6 +232,7 @@ ul {
 }
 
 .hero-cta {
+  font-family: var(--font-display);
   margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -240,6 +256,8 @@ ul {
   border: 0;
   padding: 0;
   font: inherit;
+  /* must follow the `font` shorthand, which would otherwise reset the family */
+  font-family: var(--font-display);
   color: var(--navy);
   text-decoration: underline;
   text-underline-offset: 2px;
@@ -271,15 +289,18 @@ ul {
 }
 
 .stat {
+  font-family: var(--font-display);
   font-size: 0.9375rem;
 }
 
 .num {
+  font-family: var(--font-display);
   font-weight: 600;
   font-variant-numeric: tabular-nums;
 }
 
 .lbl {
+  font-family: var(--font-display);
   color: var(--graphite);
 }
 
@@ -311,6 +332,7 @@ ul {
 }
 
 .crumbs {
+  font-family: var(--font-display);
   font-size: 0.875rem;
   color: var(--graphite);
   margin-bottom: 10px;
@@ -329,7 +351,80 @@ ul {
   background: none;
 }
 
+/* ---- two-column overview: experience beside publications ---- */
+.duo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.duo-col {
+  display: grid;
+  gap: 14px;
+  align-content: start;
+}
+
+.duo-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--line);
+}
+
+.duo-head h2 {
+  font-size: 1.375rem;
+}
+
+.duo-head a {
+  font-family: var(--font-display);
+  font-size: 0.875rem;
+  white-space: nowrap;
+}
+
+/* bordered, but not decorated: no shadow, no gradient, no hover lift */
+.panel {
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  padding: 18px 20px;
+}
+
+.panel h3 {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.panel-meta {
+  font-family: var(--font-display);
+  font-size: 0.875rem;
+  color: var(--graphite);
+  margin: 6px 0 0;
+  font-variant-numeric: tabular-nums;
+}
+
+.panel-body {
+  font-size: 1rem;
+  color: var(--graphite);
+  margin: 10px 0 0;
+}
+
+.panel-links {
+  font-family: var(--font-display);
+  font-size: 0.875rem;
+  margin: 10px 0 0;
+}
+
+.panel-note {
+  font-family: var(--font-display);
+  font-size: 0.875rem;
+  color: var(--graphite);
+  margin: 4px 0 0;
+}
+
 .chips {
+  font-family: var(--font-display);
   margin-top: 10px;
   font-size: 0.875rem;
   color: var(--graphite);
@@ -386,15 +481,18 @@ ul {
 }
 
 .exp-meta {
+  font-family: var(--font-display);
   font-size: 0.9375rem;
 }
 
 .company {
+  font-family: var(--font-display);
   font-weight: 600;
 }
 
 .when,
 .where {
+  font-family: var(--font-display);
   color: var(--graphite);
   font-variant-numeric: tabular-nums;
 }
@@ -477,6 +575,7 @@ a.skill-card h3 {
 }
 
 .project-links {
+  font-family: var(--font-display);
   display: flex;
   flex-wrap: wrap;
   gap: 4px 18px;
@@ -485,6 +584,7 @@ a.skill-card h3 {
 }
 
 .repo {
+  font-family: var(--font-display);
   font-size: 0.9375rem;
 }
 
@@ -502,6 +602,7 @@ a.skill-card h3 {
 }
 
 .pub .year {
+  font-family: var(--font-display);
   font-size: 0.9375rem;
   color: var(--graphite);
   font-variant-numeric: tabular-nums;
@@ -525,6 +626,7 @@ a.skill-card h3 {
 }
 
 .status {
+  font-family: var(--font-display);
   display: block;
   margin-top: 10px;
   font-size: 0.9375rem;
@@ -532,6 +634,7 @@ a.skill-card h3 {
 }
 
 .pub-links {
+  font-family: var(--font-display);
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
@@ -545,12 +648,14 @@ a.skill-card h3 {
 }
 
 .pub-pages {
+  font-family: var(--font-display);
   color: var(--graphite);
   font-variant-numeric: tabular-nums;
 }
 
 /* ============================================================ CONTACT */
 .contact-actions {
+  font-family: var(--font-display);
   margin-top: 16px;
   display: flex;
   flex-wrap: wrap;
@@ -558,6 +663,7 @@ a.skill-card h3 {
 }
 
 .lang-row {
+  font-family: var(--font-display);
   margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -581,6 +687,7 @@ a.skill-card h3 {
 
 /* ============================================================ FOOTER */
 .footer {
+  font-family: var(--font-display);
   border-top: 1px solid var(--line);
   padding: 24px 0 32px;
   font-size: 0.9375rem;
@@ -637,9 +744,14 @@ a.skill-card h3 {
   .about-grid,
   .exp,
   .pub,
-  .skills-grid {
+  .skills-grid,
+  .duo {
     grid-template-columns: 1fr;
     gap: 16px;
+  }
+
+  .duo {
+    gap: 32px;
   }
 
   .hero-inner {
