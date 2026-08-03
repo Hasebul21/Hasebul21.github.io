@@ -123,39 +123,10 @@ ul {
   border-top: 1px solid var(--line-soft);
 }
 
-.page-header {
-  border-bottom: 1px solid var(--line);
-  padding: 28px 0;
-}
-
-.page-header h1 {
-  font-size: 1.625rem;
-}
-
 /* prose must not run the full 1200px — cap it at a readable measure */
-.lead,
-.page-header p,
 .hero .role,
 .research-item p {
   max-width: 68ch;
-}
-
-.lead {
-  color: var(--graphite);
-  margin-top: 8px;
-}
-
-.crumbs {
-  font-family: var(--font-display);
-  font-size: 0.875rem;
-  color: var(--graphite);
-  margin-bottom: 10px;
-  display: flex;
-  gap: 8px;
-}
-
-.crumbs a {
-  color: var(--graphite);
 }
 
 /* ============================================================ TYPE SCALE */
@@ -517,6 +488,11 @@ ul {
 
 .pub-link {
   word-break: break-word;
+}
+
+/* standalone ORCID line above the publications grid */
+.page-orcid {
+  margin-bottom: 20px;
 }
 
 .pub-pages {
