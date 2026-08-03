@@ -8,7 +8,7 @@
 
 ## 👋 About Me
 
-I am a **Software Engineer with 3+ years of experience** building **scalable, high-performance backend and full-stack systems** for real-world, production environments. My core expertise includes **Java, Spring Boot, PostgreSQL, Angular**, and modern **DevOps and cloud tooling**, with a strong focus on clean architecture, performance optimization, and system reliability.
+I am a **Software Engineer with 5+ years of experience** building **scalable, high-performance backend and full-stack systems** for real-world, production environments. My core expertise includes **Java, Spring Boot, PostgreSQL, Angular**, and modern **DevOps and cloud tooling**, with a strong focus on clean architecture, performance optimization, and system reliability.
 
 I enjoy working at the intersection of **software engineering, system optimization, and applied AI**. Alongside enterprise development, I actively explore **agentic AI, explainable machine learning, and AI-assisted developer tools**, aiming to build intelligent systems that improve software quality, reduce operational overhead, and support data-driven decision-making.
 
@@ -56,11 +56,19 @@ Data Structures · Algorithms · System Design · Distributed Systems · Caching
 
 ## 🚀 Selected Projects
 
+### **Trading Portfolio Platform — Stock Portfolio & P&L Analytics**
+Stock portfolio platform supporting transactions, live holdings, and P&L analytics, with market-data APIs integrated for real-time pricing and reporting. Built with Cursor AI (structured prompts, agent loops) to accelerate delivery while keeping architectural control.
+
+**Tech:** Next.js · TypeScript · Supabase · PostgreSQL · Market Data APIs  
+🔗 [Live](https://hasebul-trading-portfolio.vercel.app/) • [GitHub](https://github.com/Hasebul21/trading-portfolio)
+
+---
+
 ### **QuickChat — Real-Time Messaging Platform**
 Real-time chat system with WebSockets, Redis caching, and Elasticsearch-based message search.
 
 **Tech:** Java · Spring Boot · Angular · PostgreSQL · Redis · Elasticsearch · Docker  
-🔗 https://github.com/Hasebul21/quick-chat
+🔗 [Live](https://quickchat-one-chi.vercel.app) • [GitHub](https://github.com/Hasebul21/quick-chat)
 
 ---
 
@@ -74,24 +82,32 @@ Full-stack blogging platform with complete CRUD functionality and **90%+ unit te
 
 ## 📄 Publications
 
-### **Machine Learning-Based Early Risk Stratification Framework for Chronic Kidney Disease Progression**  
-*(2024–2025)* — 🟢 **IEEE ICSFT 2026 (Accepted, Oral Presentation)**  
+🔗 ORCID: [0009-0000-7889-5412](https://orcid.org/0009-0000-7889-5412)
 
-Proposed a machine learning–based early risk stratification framework for chronic kidney disease progression using comprehensive multi-domain clinical and biochemical data. Integrated demographic attributes, laboratory biomarkers, and longitudinal clinical indicators to model disease progression across CKD stages. Conducted a comparative evaluation of multiple ML models to support early identification of high-risk patients and enable clinically actionable, data-driven decision support.
+### **Comparative Machine Learning Analysis of Gen Z’s Clothing Consumption Behavior: Predicting Sustainable Fashion Adoption and Expectations in Bangladesh**  
+*S. Ul Haque, **H. H. Chowdhury**, S. K. Ahmed, V. Jishan, M. R. Hossain, S. K. Ghosh*  
+🔵 **IEEE ICSSAS 2026** — Erode, India · Published 28 May 2026 · pp. 910–917  
+🔗 [IEEE Xplore](https://ieeexplore.ieee.org/document/11559342) • DOI: [10.1109/ICSSAS68835.2026.11559342](https://doi.org/10.1109/ICSSAS68835.2026.11559342)
+
+Conducted a comparative machine learning study to predict sustainable fashion adoption among Gen Z consumers in Bangladesh. Evaluated **Logistic Regression, Decision Tree, Random Forest, Gradient Boosting, and SVM** using systematic feature engineering and cross-validation. **Gradient Boosting** achieved the best performance (85% accuracy, 75% F1-score, 90% AUC). Applied **SHAP-based explainability** to identify economic affordability and promotional dependency as the most influential behavioral factors, highlighting affordability as a key barrier to adoption.
 
 ---
 
-### **AI-Enhanced Prediction of Respiratory Irritation from Biomass Combustion Byproducts**  
-*(2024–2025)* — 🟢 **ICCCES 2026 (Accepted)**  
+### **AI-Enhanced Prediction of Respiratory Irritation From Biomass Combustion Byproducts: An Integrative Machine Learning Framework for Sustainable Bioenergy Systems**  
+*S. Alam, A. Biswas, R. Islam, S. S. Rahman, **H. H. Chowdhury**, S. K. Ghosh*  
+🔵 **IEEE ICCCES 2026** — Coimbatore, India · Published 21 Jan 2026 · pp. 895–901  
+🔗 [IEEE Xplore](https://ieeexplore.ieee.org/document/11437157) • DOI: [10.1109/ICCCES62661.2026.11437157](https://doi.org/10.1109/ICCCES62661.2026.11437157)
 
 Developed an integrative machine learning pipeline combining **Random Forest** and **LSTM** models to predict respiratory irritation from biomass combustion exposure. Fused environmental metrics (PM2.5, NOx, VOCs) with clinical biomarkers for real-time health risk stratification. Identified **nitrogen oxides** as the most influential predictor, revealing mechanistic links between combustion inefficiency and inflammatory response.
 
 ---
 
-### **Comparative Machine Learning Analysis of Gen Z’s Clothing Consumption Behavior**  
-*(2025)* — 🟡 **IEEE ICSFT Bangalore 2026 (Submitted)**  
+### **Machine Learning-Based Early Risk Stratification Framework for Chronic Kidney Disease Progression Using Comprehensive Multi-Domain Clinical and Biochemical Data**  
+*M. Maniruzzaman, N. N. Nejum, M. J. Mamata, **H. H. Chowdhury**, F. A. Romit, S. K. Ghosh*  
+🔵 **IEEE ICSFT 2026** — Bengaluru, India · Published 2 Jan 2026 · pp. 1–6 · Oral Presentation  
+🔗 [IEEE Xplore](https://ieeexplore.ieee.org/document/11507621) • DOI: [10.1109/ICSFT66733.2026.11507621](https://doi.org/10.1109/ICSFT66733.2026.11507621)
 
-Conducted a comparative machine learning study to predict sustainable fashion adoption among Gen Z consumers in Bangladesh. Evaluated **Logistic Regression, Decision Tree, Random Forest, Gradient Boosting, and SVM** using systematic feature engineering and cross-validation. **Gradient Boosting** achieved the best performance (85% accuracy, 75% F1-score, 90% AUC). Applied **SHAP-based explainability** to identify economic affordability and promotional dependency as the most influential behavioral factors, highlighting affordability as a key barrier to adoption.
+Proposed a machine learning–based early risk stratification framework for chronic kidney disease progression using comprehensive multi-domain clinical and biochemical data. Integrated demographic attributes, laboratory biomarkers, and longitudinal clinical indicators to model disease progression across CKD stages. Conducted a comparative evaluation of multiple ML models to support early identification of high-risk patients and enable clinically actionable, data-driven decision support.
 
 ---
 
@@ -105,6 +121,17 @@ Conducted a comparative machine learning study to predict sustainable fashion ad
   🔗 https://oj.synapse0.com/standings.php?contest=1013  
 - 🏅 **6th Place** — AIUB CS Fest 2018 Programming Contest  
   🔗 https://toph.co/c/aiub-cs-fest-2018-j/standings?start=0  
+
+---
+
+## 📜 Certifications
+
+- 🛡 **Secure Coding & Application Security** — SecureFlag  
+  Hands-on training on secure coding practices, **OWASP Top 10** vulnerabilities, and real-world exploitation scenarios.  
+  🔗 [View credential](https://www.secureflag.com/b?605ce7d7-16d6-44f7-bcc9-833c74b20ad4)  
+- 🎓 **Data Structures** — University of California San Diego (Coursera)  
+  Fundamental data structures, algorithm design, and performance optimization techniques.  
+  🔗 [View certificate](https://www.coursera.org/account/accomplishments/verify/PNA27NRLMF4G)  
 
 ---
 

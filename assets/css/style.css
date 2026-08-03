@@ -771,6 +771,18 @@ ul {
   height: 17px;
 }
 
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 22px;
+  margin-top: 22px;
+}
+
+.project-links .repo {
+  margin-top: 0;
+}
+
 /* ============================================================ PUBLICATIONS */
 .pubs {
   display: grid;
@@ -838,6 +850,59 @@ ul {
 
 .status-submitted::before {
   background: #4a3b00;
+}
+
+.status-published {
+  background: var(--navy);
+  color: #fff;
+}
+
+.status-published::before {
+  background: #fff;
+}
+
+.pub-authors {
+  font-size: 0.875rem;
+  color: var(--graphite);
+  margin-top: 10px;
+}
+
+.pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 22px;
+  margin-top: 16px;
+}
+
+.pub-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--navy);
+  font-weight: 600;
+  font-size: 0.875rem;
+  word-break: break-word;
+  transition: color 160ms ease;
+}
+
+.pub-link:hover {
+  color: var(--cyan);
+}
+
+.pub-link .lucide {
+  width: 16px;
+  height: 16px;
+  flex: none;
+}
+
+.page-header .pub-link {
+  margin-top: 20px;
+}
+
+.pub-pages {
+  font-size: 0.8125rem;
+  color: var(--graphite);
 }
 
 /* ============================================================ ACHIEVEMENTS */
