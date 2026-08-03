@@ -1,8 +1,13 @@
 /* ============================================================
    Hasebul Hassan Chowdhury — Portfolio
+
    Journal-style pairing: Source Serif 4 for prose, Inter for
-   headings, navigation and metadata. One accent colour, hairline
-   rules. No gradients, shadows, or animation.
+   headings, navigation and metadata.
+
+   Layout: a 1200px container; content sits in an auto-fitting
+   card grid. Panels carry real internal structure — header,
+   body, footer, divided by hairlines. No gradients, shadows,
+   or animation.
    ============================================================ */
 
 :root {
@@ -12,16 +17,19 @@
   --ink: #1A1A1A;
   --graphite: #5A5A5A;
   --paper: #FFFFFF;
+  --panel-head: #FAFBFC;
 
-  --line: #E0E4E8;
-  --line-soft: #EDF0F3;
+  --line: #D8DEE4;
+  --line-soft: #E8ECEF;
 
   /* prose */
   --font-body: 'Source Serif 4', Charter, 'Bitstream Charter', Cambria, Georgia, serif;
   /* headings, nav, metadata */
   --font-display: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
 
-  --wrap: 880px;
+  --wrap: 1200px;
+  /* narrowest a card may get before the grid drops a column */
+  --card-min: 430px;
 }
 
 @supports (font-variation-settings: normal) {
@@ -45,7 +53,6 @@ body {
   background: var(--paper);
   color: var(--ink);
   font-family: var(--font-body);
-  /* serif needs a touch more size than sans at the same optical weight */
   font-size: 1.0625rem;
   line-height: 1.65;
 }
@@ -96,47 +103,79 @@ ul {
   padding-left: 20px;
 }
 
+/* ============================================================ LAYOUT */
 .wrap {
   max-width: var(--wrap);
   margin: 0 auto;
   padding: 0 24px;
 }
 
+.section {
+  padding: 44px 0;
+  border-top: 1px solid var(--line-soft);
+}
+
+.section:first-of-type {
+  border-top: 0;
+}
+
+.section-navy {
+  border-top: 1px solid var(--line-soft);
+}
+
+.page-header {
+  border-bottom: 1px solid var(--line);
+  padding: 28px 0;
+}
+
+.page-header h1 {
+  font-size: 1.625rem;
+}
+
+/* prose must not run the full 1200px — cap it at a readable measure */
+.lead,
+.page-header p,
+.hero .role,
+.research-item p {
+  max-width: 68ch;
+}
+
+.lead {
+  color: var(--graphite);
+  margin-top: 8px;
+}
+
+.crumbs {
+  font-family: var(--font-display);
+  font-size: 0.875rem;
+  color: var(--graphite);
+  margin-bottom: 10px;
+  display: flex;
+  gap: 8px;
+}
+
+.crumbs a {
+  color: var(--graphite);
+}
+
+/* ============================================================ TYPE SCALE */
 .mono {
   font-family: var(--font-display);
   font-variant-numeric: tabular-nums;
 }
 
-/* ============================================================ TYPE SCALE */
 .display-xl {
   font-family: var(--font-display);
-  font-size: 2rem;
+  font-size: 2.125rem;
   font-weight: 700;
-  line-height: 1.2;
-  letter-spacing: -0.02em;
+  line-height: 1.18;
+  letter-spacing: -0.022em;
 }
 
 .display-l {
   font-family: var(--font-display);
   font-size: 1.5rem;
   font-weight: 600;
-}
-
-.display-m {
-  font-family: var(--font-display);
-  font-size: 1.375rem;
-  font-weight: 600;
-}
-
-.heading-m {
-  font-family: var(--font-display);
-  font-size: 1.0625rem;
-  font-weight: 600;
-}
-
-.lead {
-  color: var(--graphite);
-  margin-top: 8px;
 }
 
 /* ============================================================ NAV */
@@ -150,7 +189,7 @@ ul {
   align-items: center;
   justify-content: space-between;
   gap: 24px;
-  padding: 16px 24px;
+  padding: 15px 24px;
 }
 
 .brand {
@@ -168,7 +207,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 4px 18px;
+  gap: 4px 20px;
 }
 
 .nav-link {
@@ -188,7 +227,6 @@ ul {
 }
 
 .nav-toggle {
-  font-family: var(--font-display);
   display: none;
   background: none;
   border: 1px solid var(--line);
@@ -205,8 +243,8 @@ ul {
 
 .hero-inner {
   display: grid;
-  grid-template-columns: 1fr 140px;
-  gap: 40px;
+  grid-template-columns: minmax(0, 1fr) 156px;
+  gap: 56px;
   align-items: start;
   padding: 48px 0;
 }
@@ -218,32 +256,31 @@ ul {
 .hero .role {
   margin-top: 12px;
   color: var(--graphite);
-  max-width: 52ch;
 }
 
 .hero .meta {
   font-family: var(--font-display);
-  margin-top: 16px;
+  margin-top: 18px;
   display: flex;
   flex-wrap: wrap;
-  gap: 4px 18px;
+  gap: 4px 20px;
   font-size: 0.9375rem;
   color: var(--graphite);
 }
 
 .hero-cta {
   font-family: var(--font-display);
-  margin-top: 20px;
+  margin-top: 18px;
   display: flex;
   flex-wrap: wrap;
-  gap: 8px 18px;
+  gap: 8px 20px;
   font-size: 0.9375rem;
 }
 
 .hero-photo img {
-  width: 140px;
-  height: 140px;
-  border-radius: 3px;
+  width: 156px;
+  height: 156px;
+  border-radius: 4px;
   object-fit: cover;
   border: 1px solid var(--line);
 }
@@ -283,7 +320,7 @@ ul {
 
 .stat-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 8px 32px;
   padding: 20px 0;
 }
@@ -295,6 +332,7 @@ ul {
 
 .num {
   font-family: var(--font-display);
+  font-size: 1.125rem;
   font-weight: 600;
   font-variant-numeric: tabular-nums;
 }
@@ -304,130 +342,117 @@ ul {
   color: var(--graphite);
 }
 
-/* ============================================================ SECTIONS */
-.section {
-  padding: 40px 0;
-  border-top: 1px solid var(--line-soft);
-}
-
-.section:first-of-type {
-  border-top: 0;
-}
-
-.section-navy {
-  border-top: 1px solid var(--line-soft);
-}
-
-.section-head {
-  margin-bottom: 24px;
-}
-
-.page-header {
-  border-bottom: 1px solid var(--line);
-  padding: 28px 0;
-}
-
-.page-header h1 {
-  font-size: 1.5rem;
-}
-
-.crumbs {
-  font-family: var(--font-display);
-  font-size: 0.875rem;
-  color: var(--graphite);
-  margin-bottom: 10px;
-  display: flex;
-  gap: 8px;
-}
-
-.crumbs a {
-  color: var(--graphite);
-}
-
-/* ============================================================ CARDS (ruled blocks) */
-.card {
-  border: 0;
-  padding: 0;
-  background: none;
-}
-
-/* ---- two-column overview: experience beside publications ---- */
-.duo {
+/* ============================================================ CARD GRID
+   auto-fit means the column count follows the container, so there
+   are no per-page breakpoints to keep in sync. */
+.card-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px;
-  align-items: start;
+  grid-template-columns: repeat(auto-fit, minmax(var(--card-min), 1fr));
+  gap: 20px;
+  align-items: stretch;
 }
 
-.duo-col {
-  display: grid;
-  gap: 14px;
-  align-content: start;
+/* a panel that should never share a row */
+.card-grid .span-all {
+  grid-column: 1 / -1;
 }
 
-.duo-head {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 16px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid var(--line);
-}
-
-.duo-head h2 {
-  font-size: 1.375rem;
-}
-
-.duo-head a {
-  font-family: var(--font-display);
-  font-size: 0.875rem;
-  white-space: nowrap;
-}
-
-/* bordered, but not decorated: no shadow, no gradient, no hover lift */
+/* ============================================================ PANEL
+   header / body / footer, divided by hairlines. Bordered, not
+   decorated: no shadow, no gradient, no hover lift. */
 .panel {
+  display: flex;
+  flex-direction: column;
   border: 1px solid var(--line);
-  border-radius: 3px;
-  padding: 18px 20px;
+  border-radius: 4px;
+  overflow: hidden;
 }
 
-.panel h3 {
-  font-size: 1rem;
+.panel-head {
+  padding: 15px 20px;
+  border-bottom: 1px solid var(--line-soft);
+  background: var(--panel-head);
+}
+
+.panel-head h3 {
+  font-size: 1.0625rem;
   line-height: 1.4;
+}
+
+.panel-kicker {
+  font-family: var(--font-display);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--graphite);
+  margin: 0 0 6px;
 }
 
 .panel-meta {
   font-family: var(--font-display);
   font-size: 0.875rem;
   color: var(--graphite);
-  margin: 6px 0 0;
+  margin: 5px 0 0;
   font-variant-numeric: tabular-nums;
 }
 
+/* body grows so footers line up across a row */
+.panel-main {
+  padding: 16px 20px;
+  flex: 1 1 auto;
+}
+
 .panel-body {
-  font-size: 1rem;
   color: var(--graphite);
-  margin: 10px 0 0;
+  margin: 0;
+  /* a span-all card is ~1150px wide; cap the measure for readability */
+  max-width: 88ch;
+}
+
+.panel-foot {
+  padding: 12px 20px;
+  border-top: 1px solid var(--line-soft);
 }
 
 .panel-links {
   font-family: var(--font-display);
   font-size: 0.875rem;
-  margin: 10px 0 0;
+  margin: 0;
 }
 
 .panel-note {
   font-family: var(--font-display);
   font-size: 0.875rem;
   color: var(--graphite);
-  margin: 4px 0 0;
+  margin: 0;
+}
+
+/* ---- lists and chips inside panels ---- */
+.impact {
+  list-style: disc;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.impact li {
+  margin-bottom: 9px;
+}
+
+.impact li:last-child {
+  margin-bottom: 0;
 }
 
 .chips {
   font-family: var(--font-display);
-  margin-top: 10px;
   font-size: 0.875rem;
   color: var(--graphite);
+  margin: 0;
+}
+
+/* chips sitting under body copy inside a card need breathing room */
+.panel-main .chips {
+  margin-top: 12px;
 }
 
 .chip {
@@ -439,17 +464,84 @@ ul {
   color: var(--line);
 }
 
+/* ============================================================ HOME: TWO NAMED COLUMNS */
+.duo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(var(--card-min), 1fr));
+  gap: 20px 32px;
+  align-items: start;
+}
+
+.duo-col {
+  display: grid;
+  gap: 16px;
+  align-content: start;
+  min-width: 0;
+}
+
+.duo-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--ink);
+}
+
+.duo-head h2 {
+  font-size: 1.25rem;
+}
+
+.duo-head a {
+  font-family: var(--font-display);
+  font-size: 0.875rem;
+  white-space: nowrap;
+}
+
+/* ============================================================ PUBLICATIONS */
+.pub-authors {
+  font-family: var(--font-display);
+  font-size: 0.875rem;
+  color: var(--graphite);
+  margin: 8px 0 0;
+}
+
+.pub-links {
+  font-family: var(--font-display);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 18px;
+  font-size: 0.875rem;
+}
+
+.pub-link {
+  word-break: break-word;
+}
+
+.pub-pages {
+  color: var(--graphite);
+  font-variant-numeric: tabular-nums;
+}
+
+.status {
+  font-family: var(--font-display);
+  font-size: 0.875rem;
+  color: var(--ink);
+}
+
 /* ============================================================ ABOUT */
 .about-grid {
   display: grid;
-  grid-template-columns: 1.5fr 1fr;
-  gap: 40px;
+  grid-template-columns: minmax(0, 64ch) minmax(240px, 1fr);
+  gap: 48px;
   align-items: start;
 }
 
 .focus-card {
-  border-left: 2px solid var(--line);
-  padding-left: 20px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 18px 20px;
 }
 
 .focus-card h3 {
@@ -467,55 +559,17 @@ ul {
   margin-bottom: 6px;
 }
 
-/* ============================================================ EXPERIENCE / EDUCATION */
-.exp-list {
-  display: grid;
-  gap: 32px;
-}
-
-.exp {
-  display: grid;
-  grid-template-columns: 200px 1fr;
-  gap: 28px;
-  align-items: start;
-}
-
-.exp-meta {
-  font-family: var(--font-display);
-  font-size: 0.9375rem;
-}
-
-.company {
-  font-family: var(--font-display);
-  font-weight: 600;
-}
-
-.when,
-.where {
-  font-family: var(--font-display);
-  color: var(--graphite);
-  font-variant-numeric: tabular-nums;
-}
-
-.exp-body h3 {
-  margin-bottom: 10px;
-}
-
-.impact {
-  list-style: disc;
-  margin: 0;
-  padding-left: 20px;
-}
-
-.impact li {
-  margin-bottom: 8px;
-}
-
-/* ============================================================ SKILLS / RESEARCH GRIDS */
+/* ============================================================ SKILLS / RESEARCH */
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 24px 40px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 18px 20px;
 }
 
 .skill-card {
@@ -525,7 +579,7 @@ ul {
 
 .skill-card h3 {
   font-size: 1rem;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
 
 a.skill-card h3 {
@@ -537,41 +591,24 @@ a.skill-card h3 {
 .skill-card p {
   color: var(--graphite);
   font-size: 0.9375rem;
+  margin: 0;
 }
 
 .research-grid {
   display: grid;
-  gap: 14px;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: 16px 32px;
 }
 
 .research-item p {
   color: var(--graphite);
+  margin: 0;
 }
 
 /* ============================================================ PROJECTS */
-.projects-grid {
-  display: grid;
-  gap: 32px;
-}
-
-.project-card .top {
-  display: flex;
-  align-items: baseline;
-  gap: 12px;
-  margin-bottom: 6px;
-}
-
-.project-card h3 {
-  font-size: 1.0625rem;
-}
-
-.project-card .top .chip {
+.repo {
+  font-family: var(--font-display);
   font-size: 0.875rem;
-  color: var(--graphite);
-}
-
-.project-card .desc {
-  color: var(--graphite);
 }
 
 .project-links {
@@ -579,78 +616,7 @@ a.skill-card h3 {
   display: flex;
   flex-wrap: wrap;
   gap: 4px 18px;
-  margin-top: 8px;
-  font-size: 0.9375rem;
-}
-
-.repo {
-  font-family: var(--font-display);
-  font-size: 0.9375rem;
-}
-
-/* ============================================================ PUBLICATIONS */
-.pubs {
-  display: grid;
-  gap: 28px;
-}
-
-.pub {
-  display: grid;
-  grid-template-columns: 90px 1fr;
-  gap: 28px;
-  align-items: start;
-}
-
-.pub .year {
-  font-family: var(--font-display);
-  font-size: 0.9375rem;
-  color: var(--graphite);
-  font-variant-numeric: tabular-nums;
-  white-space: nowrap;
-}
-
-.pub h3 {
-  font-size: 1.0625rem;
-  font-weight: 600;
-}
-
-.pub-authors {
-  margin-top: 6px;
-  font-size: 0.9375rem;
-  color: var(--graphite);
-}
-
-.pub p {
-  color: var(--graphite);
-  margin-top: 10px;
-}
-
-.status {
-  font-family: var(--font-display);
-  display: block;
-  margin-top: 10px;
-  font-size: 0.9375rem;
-  color: var(--ink);
-}
-
-.pub-links {
-  font-family: var(--font-display);
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: 4px 18px;
-  margin-top: 8px;
-  font-size: 0.9375rem;
-}
-
-.pub-link {
-  word-break: break-word;
-}
-
-.pub-pages {
-  font-family: var(--font-display);
-  color: var(--graphite);
-  font-variant-numeric: tabular-nums;
+  font-size: 0.875rem;
 }
 
 /* ============================================================ CONTACT */
@@ -659,7 +625,7 @@ a.skill-card h3 {
   margin-top: 16px;
   display: flex;
   flex-wrap: wrap;
-  gap: 8px 18px;
+  gap: 8px 20px;
 }
 
 .lang-row {
@@ -718,7 +684,20 @@ a.skill-card h3 {
 }
 
 /* ============================================================ RESPONSIVE */
-@media (max-width: 860px) {
+@media (max-width: 900px) {
+  /* Collapse to one column explicitly rather than by setting --card-min
+     to 100%: minmax(0, 1fr) can never contribute a min-content floor
+     wider than the track, so it degrades safely at any width. Verified
+     no horizontal overflow at 320 / 360 / 430 / 500 / 780px. */
+  .card-grid,
+  .duo {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .card-grid .span-all {
+    grid-column: auto;
+  }
+
   .nav-inner {
     flex-wrap: wrap;
   }
@@ -742,31 +721,13 @@ a.skill-card h3 {
 
   .hero-inner,
   .about-grid,
-  .exp,
-  .pub,
-  .skills-grid,
-  .duo {
+  .research-grid {
     grid-template-columns: 1fr;
-    gap: 16px;
-  }
-
-  .duo {
-    gap: 32px;
+    gap: 24px;
   }
 
   .hero-inner {
     padding: 32px 0;
-  }
-
-  .stat-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .focus-card {
-    border-left: 0;
-    border-top: 1px solid var(--line);
-    padding-left: 0;
-    padding-top: 16px;
   }
 
   .display-xl {
