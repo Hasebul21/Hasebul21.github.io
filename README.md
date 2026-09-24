@@ -128,7 +128,7 @@ This paper presents a machine learning–based early risk stratification framewo
 
 ---
 
-## 🏆 Achievements
+## 🏆 Achievements & Community
 
 - 🧮 **2100+ competitive programming problems (historical total)**
   🔗 https://www.stopstalk.com/user/profile/WA_TLE  
@@ -140,9 +140,7 @@ This paper presents a machine learning–based early risk stratification framewo
 - 🏅 **6th Place** — AIUB CS Fest 2018 Programming Contest  
   🔗 https://toph.co/c/aiub-cs-fest-2018-j/standings?start=0  
 
----
-
-## 📜 Certifications
+### Professional Certifications & Training
 
 - 🛡 **SecureFlag Secure Coding Badge** (participant)
   Badge records 588 points, 11 trophies, and 2 certifications.
