@@ -14,6 +14,14 @@ I enjoy working at the intersection of **software engineering, system optimizati
 
 ---
 
+## 🎓 Education
+
+### **Bachelor of Science in Computer Science and Engineering**
+**American International University-Bangladesh (AIUB)** · Academic record: Spring 2017–Spring 2024 · Degree awarded 9 April 2025 · Dhaka, Bangladesh
+CGPA: **3.58/4.00**
+
+---
+
 ## 💼 Professional Experience
 
 ### **Senior Software Engineer — Cefalo AS**
