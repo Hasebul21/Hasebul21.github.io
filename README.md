@@ -117,7 +117,6 @@ CGPA: 3.58/4.00
 - 2100+ competitive programming problems solved (historical total)
 - Top 7.6% global profile record with 800+ problems solved
 - Team honorable mentions in regional programming contests and AIUB contests
-- Certified in JavaScript, Problem Solving, SQL, and Java via HackerRank
 - Completed the 300-hour Data Science Modelling, Integration & Processing course
 
 ## Languages
