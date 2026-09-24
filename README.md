@@ -14,21 +14,32 @@ My recent work includes platform and edge systems, monitoring, delivery automati
 
 ## Experience
 
-### Senior Software Engineer — Cefalo AS
+### Senior Software Engineer — Cefalo Bangladesh Ltd.
 February 2026 – Present
 
-- Contributed to an applicant-tracking platform using TypeScript, NestJS, React, and role-based access control.
-- Improved archive import performance through PostgreSQL indexing and caching.
-- Worked with monitoring, log analysis, and delivery workflows using ELK, Docker, GitHub Actions, and AWS EC2.
 - Contributed to platform engineering for DN Media Group across Kong, Varnish, Fastly, Kubernetes, ArgoCD, Kustomize, and shared GitHub Actions workflows.
 
-### Software Engineer — Cefalo AS
+### Software Engineer — Cefalo Bangladesh Ltd.
 February 2024 – January 2026
 
-- Built and maintained booking workflows using Java, Spring Boot, and Angular.
+- Contributed to an applicant-tracking platform using TypeScript, NestJS, React, and role-based access control.
+- Improved archive document import and export performance through PostgreSQL indexing and caching.
 - Optimized PostgreSQL-heavy data pipelines and reduced processing time by 85% using indexing and caching.
-- Implemented Angular internationalization for the Zaui booking platform across 20+ markets.
+- Worked with monitoring, log analysis, and delivery workflows using ELK, Docker, GitHub Actions, and AWS EC2.
 - Supported feature development, bug fixing, customer support, and Agile delivery.
+
+### Associate Software Engineer — Cefalo Bangladesh Ltd.
+June 2022 – January 2024
+
+- Built and maintained backend REST services using Java, Spring Boot, and Hibernate, with JUnit and Mockito test coverage.
+- Built and maintained booking workflows using Java, Spring Boot, and Angular.
+- Implemented Angular internationalization for the Zaui booking platform across 20+ markets.
+
+### Clients at Cefalo
+
+- DN Media Group (January 2026 – Present). An Oslo media group publishing business journalism since 1889, with titles covering business in Norway and shipping, seafood, aquaculture and energy worldwide. https://www.dngroup.com/
+- Stiftelsen Asta (May 2024 – July 2025). An Oslo foundation providing archive arrangement, digitization and electronic-archive services, and the operator of the Asta 7 archive platform and the Arkivportalen portal. https://www.stiftelsenasta.no/
+- Zaui Stay (December 2022 – December 2023). An all-in-one cloud property management system for hotels from Zaui, a tourism-technology company with teams in Canada, the US and Norway. https://offer.zaui.com/partnersolutions/stay/
 
 ## Skills
 
