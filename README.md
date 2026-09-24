@@ -50,7 +50,10 @@ Java · Kotlin · TypeScript · JavaScript · C++ · Spring Boot · Spring Data 
 PostgreSQL · MySQL · MongoDB · Oracle · Redis · Elasticsearch
 
 ### 🤖 AI / ML Systems
-LLMs · RAG · Prompt Engineering · LangChain · LangGraph · FAISS · Chroma · Basic NLP Pipelines
+LLMs · RAG · Prompt Engineering · LangChain · LangGraph · FAISS · Chroma · Basic NLP Pipelines · Claude Code · MCP · Agentic Workflows
+
+### 🛰 Platform & Edge
+Kubernetes (EKS) · ArgoCD · Kustomize · Terraform · Kong · Varnish · Fastly · GitHub Actions
 
 ### 🧰 DevOps & Tooling
 Docker · Jenkins · Azure · Git · Bash · Jira
@@ -123,6 +126,7 @@ This paper presents a machine learning–based early risk stratification framewo
   🔗 https://www.stopstalk.com/user/profile/WA_TLE  
 - 🥇 **Historical profile record: top 7.6% globally, with 800+ problems solved**
   🔗 https://leetcode.com/u/Hasebul/  
+- 🏅 **Team Honorable Mentions** — Asia Dhaka Regional Site Online Preliminary Contest (2019 and 2021); **AIUB_Vikings (2021)**
 - 🏅 **10th Place** — Intra AIUB Programming Contest (Fall 2021–22)  
   🔗 https://oj.synapse0.com/standings.php?contest=1013  
 - 🏅 **6th Place** — AIUB CS Fest 2018 Programming Contest  
@@ -139,6 +143,7 @@ This paper presents a machine learning–based early risk stratification framewo
   [View credential](https://www.credly.com/badges/81727e2e-c44f-455d-9c20-4e8b0d45a56f)
 - 🧪 **HackerRank skill certifications**
   JavaScript (Intermediate), Problem Solving (Intermediate), SQL (Basic), and Java (Basic).
+- 📘 **Data Science Modelling, Integration & Processing** — 300-hour course completion, Divine IT Limited (2020).
 - 🎓 **Data Structures** — University of California San Diego (Coursera)  
   Fundamental data structures, algorithm design, and performance optimization techniques.  
   🔗 [View certificate](https://www.coursera.org/account/accomplishments/verify/PNA27NRLMF4G)  
