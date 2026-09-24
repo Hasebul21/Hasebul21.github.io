@@ -26,6 +26,7 @@ I enjoy working at the intersection of **software engineering, system optimizati
 - Improved archive import performance through **PostgreSQL** indexing and caching.
 - Implemented monitoring and log analysis using **ELK (Elasticsearch–Logstash–Kibana)** and delivery notifications.
 - Contributed to release pipelines using **GitHub Actions, Docker Hub, and AWS EC2**.
+- Contributed to platform engineering for **DN Media Group** across Kong API Gateway, Varnish, Fastly, Terraform/OpenTofu, Kubernetes, ArgoCD, Kustomize, and shared GitHub Actions workflows.
 
 **Tech Stack:**  
 `TypeScript` `NestJS` `React` `PostgreSQL` `ELK` `GitHub Actions` `Docker Hub` `AWS EC2`
@@ -134,6 +135,10 @@ This paper presents a machine learning–based early risk stratification framewo
 - 🛡 **SecureFlag Secure Coding Badge** (participant)
   Badge records 588 points, 11 trophies, and 2 certifications.
   🔗 [View credential](https://www.secureflag.com/b?605ce7d7-16d6-44f7-bcc9-833c74b20ad4)  
+- 🧠 **Claude Certified Architect - Foundations** — Issued Sep 2026 · Valid through Sep 2027
+  [View credential](https://www.credly.com/badges/81727e2e-c44f-455d-9c20-4e8b0d45a56f)
+- 🧪 **HackerRank skill certifications**
+  JavaScript (Intermediate), Problem Solving (Intermediate), SQL (Basic), and Java (Basic).
 - 🎓 **Data Structures** — University of California San Diego (Coursera)  
   Fundamental data structures, algorithm design, and performance optimization techniques.  
   🔗 [View certificate](https://www.coursera.org/account/accomplishments/verify/PNA27NRLMF4G)  
