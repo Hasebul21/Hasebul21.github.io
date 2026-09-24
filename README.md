@@ -8,7 +8,7 @@
 
 ## 👋 About Me
 
-I am a **Software Engineer with 5+ years of experience** building **scalable, high-performance backend and full-stack systems** for real-world, production environments. My core expertise includes **Java, Spring Boot, PostgreSQL, Angular**, and modern **DevOps and cloud tooling**, with a strong focus on clean architecture, performance optimization, and system reliability.
+I am a **Software Engineer with 5+ years of experience** across university web development, backend systems, full-stack products, and platform engineering. My work includes **Java, Spring Boot, TypeScript, PostgreSQL, Kubernetes**, and edge tooling, with a focus on maintainable systems and practical delivery.
 
 I enjoy working at the intersection of **software engineering, system optimization, and applied AI**. Alongside enterprise development, I actively explore **agentic AI, explainable machine learning, and AI-assisted developer tools**, aiming to build intelligent systems that improve software quality, reduce operational overhead, and support data-driven decision-making.
 
@@ -104,7 +104,7 @@ This paper presents a comparative machine learning study of sustainable fashion 
 
 ### **AI-Enhanced Prediction of Respiratory Irritation From Biomass Combustion Byproducts: An Integrative Machine Learning Framework for Sustainable Bioenergy Systems**  
 *S. Alam, A. Biswas, R. Islam, S. S. Rahman, **H. H. Chowdhury**, S. K. Ghosh*  
-🔵 **IEEE ICCCES 2026** — Coimbatore, India · Published 21 Jan 2026 · pp. 895–901  
+🔵 **IEEE ICCCES 2026** — Coimbatore, India · Accepted
 🔗 [IEEE Xplore](https://ieeexplore.ieee.org/document/11437157) • DOI: [10.1109/ICCCES62661.2026.11437157](https://doi.org/10.1109/ICCCES62661.2026.11437157)
 
 This paper presents an integrative machine learning pipeline combining **Random Forest** and **LSTM** models to predict respiratory irritation from biomass combustion exposure. It fuses environmental metrics (PM2.5, NOx, VOCs) with clinical biomarkers for real-time health risk stratification. The study identifies **nitrogen oxides** as the most influential predictor, revealing mechanistic links between combustion inefficiency and inflammatory response.
@@ -113,7 +113,7 @@ This paper presents an integrative machine learning pipeline combining **Random 
 
 ### **Machine Learning-Based Early Risk Stratification Framework for Chronic Kidney Disease Progression Using Comprehensive Multi-Domain Clinical and Biochemical Data**  
 *M. Maniruzzaman, N. N. Nejum, M. J. Mamata, **H. H. Chowdhury**, F. A. Romit, S. K. Ghosh*  
-🔵 **IEEE ICSFT 2026** — Bengaluru, India · Published 2 Jan 2026 · pp. 1–6 · Oral Presentation  
+🔵 **IEEE ICSFT 2026** — Bengaluru, India · Accepted · Oral Presentation
 🔗 [IEEE Xplore](https://ieeexplore.ieee.org/document/11507621) • DOI: [10.1109/ICSFT66733.2026.11507621](https://doi.org/10.1109/ICSFT66733.2026.11507621)
 
 This paper presents a machine learning–based early risk stratification framework for chronic kidney disease progression using comprehensive multi-domain clinical and biochemical data. The study integrates demographic attributes, laboratory biomarkers, and longitudinal clinical indicators to model disease progression across CKD stages. It conducts a comparative evaluation of multiple ML models to support early identification of high-risk patients and enable clinically actionable, data-driven decision support.

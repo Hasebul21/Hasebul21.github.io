@@ -115,6 +115,11 @@ ul {
   border-top: 1px solid var(--line-soft);
 }
 
+.section-compact {
+  padding-top: 34px;
+  padding-bottom: 34px;
+}
+
 .section:first-of-type {
   border-top: 0;
 }
@@ -149,6 +154,31 @@ ul {
   font-weight: 600;
 }
 
+.section-heading {
+  max-width: 72ch;
+  margin-bottom: 24px;
+}
+
+.section-heading h2 {
+  margin-top: 4px;
+}
+
+.section-lede {
+  color: var(--graphite);
+  margin-top: 10px;
+  max-width: 68ch;
+}
+
+.eyebrow {
+  margin: 0;
+  font-family: var(--font-display);
+  color: var(--navy);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 /* ============================================================ NAV */
 .nav {
   border-bottom: 1px solid var(--line);
@@ -158,7 +188,7 @@ ul {
 .nav-inner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   gap: 24px;
   padding: 15px 24px;
 }
@@ -469,6 +499,40 @@ ul {
   white-space: nowrap;
 }
 
+/* ============================================================ HOME PATHS */
+.path-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.path-card {
+  display: block;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 18px 20px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.path-card:hover,
+.path-card:focus-visible {
+  border-color: var(--navy);
+  color: inherit;
+}
+
+.path-card h3 {
+  color: var(--navy);
+  font-size: 1rem;
+  margin-bottom: 7px;
+}
+
+.path-card p {
+  color: var(--graphite);
+  font-size: 0.9375rem;
+  margin: 0;
+}
+
 /* ============================================================ PUBLICATIONS */
 .pub-authors {
   font-family: var(--font-display);
@@ -666,7 +730,8 @@ a.skill-card h3 {
      wider than the track, so it degrades safely at any width. Verified
      no horizontal overflow at 320 / 360 / 430 / 500 / 780px. */
   .card-grid,
-  .duo {
+  .duo,
+  .path-grid {
     grid-template-columns: minmax(0, 1fr);
   }
 
