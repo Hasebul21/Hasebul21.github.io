@@ -69,7 +69,7 @@ Data Structures · Algorithms · System Design · Distributed Systems · Caching
 Stock portfolio platform supporting transactions, live holdings, and P&L analytics, with market-data APIs integrated for real-time pricing and reporting. Built with Cursor AI (structured prompts, agent loops) to accelerate delivery while keeping architectural control.
 
 **Tech:** Next.js · TypeScript · Supabase · PostgreSQL · Market Data APIs  
-🔗 [Live](https://hasebul-trading-portfolio.vercel.app/) • [GitHub](https://github.com/Hasebul21/trading-portfolio)
+🔗 [Live](https://hasebul-trading-portfolio.vercel.app/)
 
 ---
 

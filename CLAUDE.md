@@ -21,7 +21,7 @@ Then visit `http://localhost:8000/index.html` (or any other page).
 - One `.html` file per page at the repo root: `index.html`, `about.html`, `experience.html`, `education.html`, `skills.html`, `projects.html`, `publications.html`, `achievements.html`, `contact.html`. There is no templating — every page repeats the same `<head>`, nav header, and footer markup verbatim.
 - `assets/css/style.css` — single shared stylesheet for all pages (no per-page CSS).
 - `assets/js/site.js` — single shared script, IIFE with three responsibilities: stamping the footer copyright year, toggling the mobile nav, and marking the active nav link via `data-page` attributes matched against `location.pathname`.
-- `assets/img/`, `assets/Hasebul_Hassan_Chowdhury_CV.pdf` — static assets referenced with absolute paths (`/assets/...`).
+- `assets/img/` — static assets referenced with absolute paths (`/assets/...`).
 - `README.md` is the source CV/bio content (About Me, experience, publications, achievements, skills) — it is *not* documentation about the codebase. When updating facts on the site (job history, publications, stats), check `README.md` first since it's often the most up-to-date record of that content and should stay consistent with the HTML pages.
 
 ## Conventions to follow when editing pages
