@@ -16,22 +16,27 @@ I enjoy working at the intersection of **software engineering, system optimizati
 
 ## 💼 Professional Experience
 
-### **Software Engineer — Cefalo AS**
-🗓 *June 2022 – Present* &nbsp;|&nbsp; 📍 Dhaka, Bangladesh  
+### **Senior Software Engineer — Cefalo AS**
+🗓 *February 2026 – Present* &nbsp;|&nbsp; 📍 Dhaka, Bangladesh
 
 *Cefalo is a Norwegian software development company serving enterprise clients across Europe.*
 
 #### 🔹 Key Impact
-- Delivered **full-stack features and system optimizations** across multiple production platforms, improving reliability, performance, and maintainability.  
-- Optimized **Zaui.com** data pipelines, achieving an **85% reduction in processing time** using PostgreSQL advanced indexing and caching.  
-- Designed scalable **background job processing** for bulk document operations using **Spring Boot + WebSockets (STOMP)**.  
-- Implemented centralized **ELK (Elasticsearch–Logstash–Kibana)** observability for **stiftelsenasta.no**, significantly accelerating issue diagnosis.  
-- Built an **internationalization (i18n) framework** enabling global expansion across **20+ markets**.  
-- Developed internal tooling including a **Generative-AI Chrome extension** (LangChain WebURLLoader) and an **AI-powered admin chatbot**.  
-- Designed and deployed **RBAC systems** across multiple applications and supported **CI/CD pipelines** using **Docker + Bitbucket**.
+- Contributed to an applicant-tracking platform using **TypeScript, NestJS, React**, and **role-based access control**.
+- Improved archive import performance through **PostgreSQL** indexing and caching.
+- Implemented monitoring and log analysis using **ELK (Elasticsearch–Logstash–Kibana)** and delivery notifications.
+- Contributed to release pipelines using **GitHub Actions, Docker Hub, and AWS EC2**.
 
 **Tech Stack:**  
-`Java` `Spring Boot` `Kotlin` `Hibernate` `PostgreSQL` `Angular` `Docker` `Redis` `AWS` `Jenkins` `LangChain` `RAG` `Vector DBs`
+`TypeScript` `NestJS` `React` `PostgreSQL` `ELK` `GitHub Actions` `Docker Hub` `AWS EC2`
+
+### **Software Engineer — Cefalo AS**
+🗓 *February 2024 – January 2026* &nbsp;|&nbsp; 📍 Dhaka, Bangladesh
+
+- Worked on booking workflows using **Java, Spring Boot, and Angular**, including background processing and **Redis caching**.
+- Optimized **Zaui.com** data pipelines, achieving an **85% reduction in processing time** using PostgreSQL indexing and caching.
+- Implemented Angular **internationalization (i18n)** for the **Zaui booking platform** across **20+ markets**.
+- Contributed to feature development, bug fixing, customer support, documentation, and collaboration in an **Agile** environment.
 
 ---
 
@@ -89,7 +94,7 @@ Full-stack blogging platform with complete CRUD functionality and **90%+ unit te
 🔵 **IEEE ICSSAS 2026** — Erode, India · Published 28 May 2026 · pp. 910–917  
 🔗 [IEEE Xplore](https://ieeexplore.ieee.org/document/11559342) • DOI: [10.1109/ICSSAS68835.2026.11559342](https://doi.org/10.1109/ICSSAS68835.2026.11559342)
 
-Conducted a comparative machine learning study to predict sustainable fashion adoption among Gen Z consumers in Bangladesh. Evaluated **Logistic Regression, Decision Tree, Random Forest, Gradient Boosting, and SVM** using systematic feature engineering and cross-validation. **Gradient Boosting** achieved the best performance (85% accuracy, 75% F1-score, 90% AUC). Applied **SHAP-based explainability** to identify economic affordability and promotional dependency as the most influential behavioral factors, highlighting affordability as a key barrier to adoption.
+This paper presents a comparative machine learning study of sustainable fashion adoption among Gen Z consumers in Bangladesh. It evaluates **Logistic Regression, Decision Tree, Random Forest, Gradient Boosting, and SVM** using systematic feature engineering and cross-validation. **Gradient Boosting** achieved the best performance (85% accuracy, 75% F1-score, 90% AUC). The study uses **SHAP-based explainability** to identify economic affordability and promotional dependency as influential behavioral factors, highlighting affordability as a key barrier to adoption.
 
 ---
 
@@ -98,7 +103,7 @@ Conducted a comparative machine learning study to predict sustainable fashion ad
 🔵 **IEEE ICCCES 2026** — Coimbatore, India · Published 21 Jan 2026 · pp. 895–901  
 🔗 [IEEE Xplore](https://ieeexplore.ieee.org/document/11437157) • DOI: [10.1109/ICCCES62661.2026.11437157](https://doi.org/10.1109/ICCCES62661.2026.11437157)
 
-Developed an integrative machine learning pipeline combining **Random Forest** and **LSTM** models to predict respiratory irritation from biomass combustion exposure. Fused environmental metrics (PM2.5, NOx, VOCs) with clinical biomarkers for real-time health risk stratification. Identified **nitrogen oxides** as the most influential predictor, revealing mechanistic links between combustion inefficiency and inflammatory response.
+This paper presents an integrative machine learning pipeline combining **Random Forest** and **LSTM** models to predict respiratory irritation from biomass combustion exposure. It fuses environmental metrics (PM2.5, NOx, VOCs) with clinical biomarkers for real-time health risk stratification. The study identifies **nitrogen oxides** as the most influential predictor, revealing mechanistic links between combustion inefficiency and inflammatory response.
 
 ---
 
@@ -107,15 +112,15 @@ Developed an integrative machine learning pipeline combining **Random Forest** a
 🔵 **IEEE ICSFT 2026** — Bengaluru, India · Published 2 Jan 2026 · pp. 1–6 · Oral Presentation  
 🔗 [IEEE Xplore](https://ieeexplore.ieee.org/document/11507621) • DOI: [10.1109/ICSFT66733.2026.11507621](https://doi.org/10.1109/ICSFT66733.2026.11507621)
 
-Proposed a machine learning–based early risk stratification framework for chronic kidney disease progression using comprehensive multi-domain clinical and biochemical data. Integrated demographic attributes, laboratory biomarkers, and longitudinal clinical indicators to model disease progression across CKD stages. Conducted a comparative evaluation of multiple ML models to support early identification of high-risk patients and enable clinically actionable, data-driven decision support.
+This paper presents a machine learning–based early risk stratification framework for chronic kidney disease progression using comprehensive multi-domain clinical and biochemical data. The study integrates demographic attributes, laboratory biomarkers, and longitudinal clinical indicators to model disease progression across CKD stages. It conducts a comparative evaluation of multiple ML models to support early identification of high-risk patients and enable clinically actionable, data-driven decision support.
 
 ---
 
 ## 🏆 Achievements
 
-- 🧮 **2100+ competitive programming problems solved**  
+- 🧮 **2100+ competitive programming problems (historical total)**
   🔗 https://www.stopstalk.com/user/profile/WA_TLE  
-- 🥇 **Top 7.6% globally on LeetCode** (800+ problems)  
+- 🥇 **Historical profile record: top 7.6% globally, with 800+ problems solved**
   🔗 https://leetcode.com/u/Hasebul/  
 - 🏅 **10th Place** — Intra AIUB Programming Contest (Fall 2021–22)  
   🔗 https://oj.synapse0.com/standings.php?contest=1013  
@@ -126,8 +131,8 @@ Proposed a machine learning–based early risk stratification framework for chro
 
 ## 📜 Certifications
 
-- 🛡 **Secure Coding & Application Security** — SecureFlag  
-  Hands-on training on secure coding practices, **OWASP Top 10** vulnerabilities, and real-world exploitation scenarios.  
+- 🛡 **SecureFlag Secure Coding Badge** (participant)
+  Badge records 588 points, 11 trophies, and 2 certifications.
   🔗 [View credential](https://www.secureflag.com/b?605ce7d7-16d6-44f7-bcc9-833c74b20ad4)  
 - 🎓 **Data Structures** — University of California San Diego (Coursera)  
   Fundamental data structures, algorithm design, and performance optimization techniques.  
@@ -152,4 +157,4 @@ Proposed a machine learning–based early risk stratification framework for chro
 | Language | Proficiency |
 |--------|-------------|
 | Bengali | Native |
-| English | Fluent (Professional) |
+| English | IELTS Academic: overall band 7.0 (C1) |
