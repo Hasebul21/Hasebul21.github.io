@@ -8,9 +8,9 @@
 
 ## 👋 About Me
 
-I am a **Software Engineer with 5+ years of experience** across university web development, backend systems, full-stack products, and platform engineering. My work includes **Java, Spring Boot, TypeScript, PostgreSQL, Kubernetes**, and edge tooling, with a focus on maintainable systems and practical delivery.
+I am a **Software Engineer with 5+ years of experience** across university web development, backend and full-stack engineering, and platform engineering at Cefalo Bangladesh Ltd. My work spans **Java, Kotlin, Spring, TypeScript, NestJS, Angular, React**, database performance, delivery and observability, and platform and edge systems.
 
-I enjoy working at the intersection of **software engineering, system optimization, and applied AI**. Alongside enterprise development, I actively explore **agentic AI, explainable machine learning, and AI-assisted developer tools**, aiming to build intelligent systems that improve software quality, reduce operational overhead, and support data-driven decision-making.
+I am a co-author of **three IEEE conference papers in applied machine learning**. My academic record in the BSc in Computer Science and Engineering at AIUB covers Spring 2017 through Spring 2024, with the degree awarded on 9 April 2025 and a CGPA of **3.58/4.00**. My broader development includes the 300-hour Data Science Modelling, Integration & Processing course, the BYLC ACE program, participation in the 2023 BYLC Youth Leadership Summit, and AIUB competitive-programming junior mentoring. I remain focused on **platform engineering, AI-assisted software engineering, and applied ML for decision support**.
 
 ---
 
