@@ -8,7 +8,7 @@ I build and scale software systems with a strong focus on backend engineering, p
 
 ## About
 
-I am a software engineer with experience across university web development, backend engineering, full-stack product work, and platform engineering at Cefalo Bangladesh Ltd. I enjoy building systems that are technically sound, measurable, and practical for real-world product teams.
+I am a software engineer with experience across backend engineering, full-stack product work, and platform engineering at Cefalo Bangladesh Ltd. I enjoy building systems that are technically sound, measurable, and practical for real-world product teams.
 
 My recent work includes platform and edge systems, monitoring, delivery automation, and product features powered by Java, TypeScript, PostgreSQL, Kubernetes, and cloud-native tooling. I also work on applied ML and AI-assisted engineering workflows, with a research-oriented mindset toward decision support and intelligent software systems.
 
