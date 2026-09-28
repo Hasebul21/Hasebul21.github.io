@@ -24,7 +24,6 @@ February 2024 – January 2026
 
 - Contributed to an applicant-tracking platform using TypeScript, NestJS, React, and role-based access control.
 - Improved archive document import and export performance through PostgreSQL indexing and caching.
-- Optimized PostgreSQL-heavy data pipelines and reduced processing time by 85% using indexing and caching.
 - Worked with monitoring, log analysis, and delivery workflows using ELK, Docker, GitHub Actions, and AWS EC2.
 - Supported feature development, bug fixing, customer support, and Agile delivery.
 
@@ -50,7 +49,7 @@ Java · Kotlin · TypeScript · JavaScript · C++ · Spring Boot · Spring Data 
 PostgreSQL · MySQL · MongoDB · Oracle · Redis · Elasticsearch
 
 ### AI / ML & Applied Intelligence
-LLMs · RAG · Prompt Engineering · LangChain · LangGraph · FAISS · Chroma · NLP Pipelines · Claude Code · MCP · Agentic Workflows
+LLMs · RAG · Prompt Engineering · LangChain · FAISS · Chroma · NLP Pipelines · Claude Code · MCP · Agentic Workflows
 
 ### Platform & DevOps
 Kubernetes · ArgoCD · Kustomize · Terraform · Kong · Varnish · Fastly · GitHub Actions · Docker · Jenkins · Azure
