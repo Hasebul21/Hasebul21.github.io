@@ -1133,12 +1133,14 @@ a.skill-card:hover h3 {
    Leadership and certification cards sit side by side in even rows:
    narrower columns, equal heights, certificate photo pinned to the
    bottom of each card so the row lines up. */
+#achievements .card-grid,
 #leadership .card-grid,
 #certifications .card-grid {
   grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
   align-items: stretch;
 }
 
+#achievements .panel-main,
 #leadership .panel-main,
 #certifications .panel-main {
   flex: 1;
@@ -1155,4 +1157,14 @@ a.skill-card:hover h3 {
 #leadership .panel-body,
 #certifications .panel-body {
   margin-bottom: 12px;
+}
+
+/* consecutive card sections on one page: tighter seam between them */
+#achievements:has(+ #certifications) {
+  padding-bottom: 20px;
+}
+
+#achievements + #certifications {
+  padding-top: 8px;
+  border-top: 0;
 }
