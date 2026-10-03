@@ -1383,3 +1383,31 @@ a.skill-card:hover h3 {
     grid-row: 2;
   }
 }
+
+/* ============================================================ NAV AVATAR
+   Small portrait at the left of the navigation bar, linking home. */
+.nav-avatar {
+  flex: none;
+  display: inline-flex;
+  border-radius: 50%;
+  padding: 2px;
+  background: linear-gradient(135deg, var(--cyan-deep), var(--indigo));
+}
+
+.nav-avatar img {
+  display: block;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 2px solid var(--bg);
+  object-fit: cover;
+}
+
+.nav-avatar:focus-visible {
+  outline: 2px solid var(--cyan);
+  outline-offset: 3px;
+}
+
+.nav-inner {
+  justify-content: space-between;
+}
