@@ -1,8 +1,8 @@
 /* ============================================================
    Hasebul Hassan Chowdhury — Portfolio
 
-   Modern dark tech. Slate-ink ground (#0B1120), cyan for links and
-   interaction, indigo for structure, matching the GitHub README.
+   Clean light theme. White ground, sky-blue for links and interaction,
+   indigo for structure.
 
    Type: Space Grotesk for headings, Inter for prose and UI,
    JetBrains Mono for small metadata (eyebrows, dates, tags).
@@ -14,32 +14,32 @@
    ============================================================ */
 
 :root {
-  color-scheme: dark;
+  color-scheme: light;
 
   /* ground and surfaces */
-  --bg: #0B1120;
-  --surface: #0F172A;
-  --surface-raised: #131C31;
-  --panel-head: #111A2D;
+  --bg: #FFFFFF;
+  --surface: #FFFFFF;
+  --surface-raised: #F8FAFC;
+  --panel-head: #F8FAFC;
 
   /* text */
-  --ink: #E2E8F0;
-  --ink-strong: #F8FAFC;
-  --graphite: #A3B1C6;
+  --ink: #1E293B;
+  --ink-strong: #0F172A;
+  --graphite: #475569;
   /* muted text */
 
   /* accents */
-  --cyan: #38BDF8;
+  --cyan: #0369A1;
   /* links on dark: brighter than #0EA5E9 for AA at small sizes */
-  --cyan-deep: #0EA5E9;
-  --cyan-hover: #7DD3FC;
-  --indigo: #6366F1;
-  --indigo-text: #A5B4FC;
+  --cyan-deep: #0284C7;
+  --cyan-hover: #075985;
+  --indigo: #4F46E5;
+  --indigo-text: #4338CA;
 
   /* hairlines */
-  --line: #1F2A40;
-  --line-strong: #2C3A55;
-  --line-soft: #172036;
+  --line: #E2E8F0;
+  --line-strong: #CBD5E1;
+  --line-soft: #F1F5F9;
 
   /* legacy names kept so nothing that referenced them breaks */
   --navy: var(--cyan);
@@ -312,8 +312,8 @@ li::marker {
   background-color: var(--bg);
   /* faint engineering grid, fading out toward the bottom */
   background-image:
-    linear-gradient(rgba(148, 163, 184, 0.05) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(148, 163, 184, 0.05) 1px, transparent 1px);
+    linear-gradient(rgba(15, 23, 42, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(15, 23, 42, 0.035) 1px, transparent 1px);
   background-size: 32px 32px;
   background-position: -1px -1px;
 }
@@ -323,7 +323,7 @@ li::marker {
   position: absolute;
   inset: 0;
   pointer-events: none;
-  background: linear-gradient(180deg, rgba(11, 17, 32, 0) 40%, var(--bg) 100%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 40%, var(--bg) 100%);
 }
 
 .hero-inner {
@@ -546,7 +546,7 @@ li::marker {
 .panel-foot {
   padding: 12px 20px;
   border-top: 1px solid var(--line);
-  background: rgba(19, 28, 49, 0.5);
+  background: var(--surface-raised);
 }
 
 .panel-links {
@@ -876,7 +876,7 @@ a.skill-card:hover h3 {
   padding: 8px;
   border: 1px solid var(--line-strong);
   border-radius: var(--radius-s);
-  background: #0A0F1C;
+  background: var(--surface-raised);
   overflow: hidden;
   transition: border-color var(--ease);
 }
@@ -889,7 +889,7 @@ a.skill-card:hover h3 {
   width: 100%;
   height: auto;
   border-radius: 3px;
-  filter: brightness(0.86);
+  filter: none;
   transition: filter var(--ease);
 }
 
@@ -915,7 +915,7 @@ a.skill-card:hover h3 {
   border-radius: var(--radius);
   background: var(--surface);
   color: var(--ink);
-  box-shadow: 0 30px 80px -20px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 30px 80px -20px rgba(15, 23, 42, 0.35);
 }
 
 .lightbox::backdrop {
