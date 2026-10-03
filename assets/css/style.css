@@ -1184,3 +1184,33 @@ a.skill-card:hover h3 {
 .card-grid.is-masonry > * {
   margin-bottom: 20px;
 }
+
+/* ============================================================ ACHIEVEMENTS LIST
+   The milestones read as a plain list, not cards: one column, no boxes,
+   a hairline between groups. */
+#achievements .card-grid {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0;
+  max-width: 820px;
+}
+
+#achievements .panel {
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
+  background: transparent;
+}
+
+#achievements .panel:last-child {
+  border-bottom: 0;
+}
+
+#achievements .panel-head {
+  padding: 18px 0 2px;
+  border-bottom: 0;
+  background: transparent;
+}
+
+#achievements .panel-main {
+  padding: 6px 0 18px;
+}
