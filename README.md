@@ -61,14 +61,12 @@ A stock portfolio dashboard for transactions, holdings, and P&L analytics with l
 
 Tech: Next.js · TypeScript · Supabase · PostgreSQL · Market Data APIs
 
-Live: https://hasebul-trading-portfolio.vercel.app/
 
 ### QuickChat
 A real-time messaging platform built with WebSockets, Redis caching, and Elasticsearch-backed search.
 
 Tech: Java · Spring Boot · Angular · PostgreSQL · Redis · Elasticsearch · Docker
 
-Live: https://quickchat-one-chi.vercel.app
 GitHub: https://github.com/Hasebul21/quick-chat
 
 ### TODAYTECHBLOG
@@ -120,7 +118,7 @@ CGPA: 3.58/4.00
 - Team honorable mentions in regional programming contests and AIUB contests
 - Claude Certified Architect - Foundations (Anthropic), issued Sep 2026, valid through Sep 2027
 - Completed the 300-hour Data Science Modelling, Integration & Processing course
-- Youth leadership and volunteering: BYLC Youth Leadership Summit 2023, CareerX (2023), Effective Leadership Training for Professionals (2022) and ACE programme; participation in the Bangladesh Youth Volunteer Award programme (2023); BD Clean Movement volunteer (2019); BYLCx Public Speaking online course (2018); AIUB Computer Club Certificate of Appreciation
+- Youth leadership and volunteering: BYLC Youth Leadership Summit 2023, Effective Leadership Training for Professionals (2022) and ACE programme; participation in the Bangladesh Youth Volunteer Award programme (2023); BD Clean Movement volunteer (2019); BYLCx Public Speaking online course (2018); AIUB Computer Club Certificate of Appreciation
 - Online course completions (not vendor certifications): AWS Cloud Practitioner CLF-C02 course, Docker and Kubernetes, The Ultimate Design Patterns, SQL and PostgreSQL, Hibernate and JPA with Spring Boot, Kotlin for Java Developers, The Complete Angular Course
 
 ## Languages
