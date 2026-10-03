@@ -82,12 +82,12 @@ Tech: Java · Spring Boot · Angular · PostgreSQL · Redis · Elasticsearch · 
 
 Live: https://quickchat-one-chi.vercel.app/ · GitHub: https://github.com/Hasebul21/quick-chat
 
-### TODAYTECHBLOG
-A full-stack blog platform with CRUD workflows and a strong focus on maintainability and test coverage.
+### DevDiary
+Tech blog with a Spring Boot REST API and a React frontend: JWT sign-in, owner-only editing, search, tags, comments and likes, with 90%+ unit-test coverage.
 
-Tech: Java · Spring Boot · React · MySQL
+Tech: Java · Spring Boot · Spring Security · React · MySQL
 
-GitHub: https://github.com/Hasebul21/TechBlog_RestAPI_Spring
+Live: https://devdiary-haseb.vercel.app/ · GitHub: https://github.com/Hasebul21/DevDiary
 
 ## Publications
 
