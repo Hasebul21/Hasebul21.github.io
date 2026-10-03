@@ -1184,13 +1184,3 @@ a.skill-card:hover h3 {
 .card-grid.is-masonry > * {
   margin-bottom: 20px;
 }
-
-/* client cards follow the role cards directly, without their own heading */
-#experience:has(+ #clients) {
-  padding-bottom: 20px;
-}
-
-#experience + #clients {
-  padding-top: 0;
-  border-top: 0;
-}
