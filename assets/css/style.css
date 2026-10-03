@@ -1411,3 +1411,9 @@ a.skill-card:hover h3 {
 .nav-inner {
   justify-content: space-between;
 }
+
+/* About intro without the large portrait: one readable column */
+.about-intro {
+  grid-template-columns: minmax(0, 1fr);
+  max-width: 72ch;
+}
