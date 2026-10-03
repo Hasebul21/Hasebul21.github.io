@@ -4,7 +4,7 @@
    Clean light theme. White ground, sky-blue for links and interaction,
    indigo for structure.
 
-   Type: Fraunces for headings, IBM Plex Sans for prose, IBM Plex Mono for labels and UI,
+   Type: Fraunces throughout (headings, prose, labels and UI),
    (eyebrows, dates, tags).
 
    Layout is unchanged: a 1200px container and an auto-fitting card
@@ -47,8 +47,8 @@
   --paper: var(--bg);
 
   --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
-  --font-body: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
-  --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --font-body: 'Fraunces', Georgia, 'Times New Roman', serif;
+  --font-mono: 'Fraunces', Georgia, 'Times New Roman', serif;
 
   --radius: 10px;
   --radius-s: 6px;
@@ -1137,7 +1137,6 @@ a.skill-card:hover h3 {
 #leadership .card-grid,
 #certifications .card-grid {
   grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
-  align-items: stretch;
 }
 
 #achievements .panel-main,
@@ -1175,4 +1174,18 @@ a.skill-card:hover h3 {
    generic .span-all reset applies */
 #certifications .card-grid .span-all {
   grid-column: 1 / -1;
+}
+
+/* ============================================================ MASONRY
+   site.js adds .is-masonry when a grid has 2+ columns and gives each card
+   a row span equal to its height, so cards pack upward with no gaps while
+   keeping left-to-right order. Without JS the plain grid applies. */
+.card-grid.is-masonry {
+  grid-auto-rows: 1px;
+  row-gap: 0;
+  align-items: start;
+}
+
+.card-grid.is-masonry > * {
+  margin-bottom: 20px;
 }

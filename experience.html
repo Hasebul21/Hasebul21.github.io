@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" />
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&display=swap" />
 
     <link rel="stylesheet" href="/assets/css/style.css" />
 </head>
@@ -58,14 +58,20 @@
                     </header>
                     <div class="panel-main">
                         <ul class="impact">
-                            <li><span>Contributed to the platform engineering for <b>DN Media Group</b>, working
-                                    with <b>Kong API Gateway, Varnish, and Fastly</b> infrastructure managed through
-                                    <b>Terraform/OpenTofu</b>.</span></li>
-                            <li><span>Supported <b>Kubernetes (EKS)</b> workloads with <b>ArgoCD</b> and
-                                    <b>Kustomize</b>, including publication-site applications and <b>ARM64 workload
-                                        migration</b>.</span></li>
-                            <li><span>Contributed to shared <b>GitHub Actions</b> workflows for multi-platform
-                                    <b>ECR</b> image builds, coverage reporting, and policy checks.</span></li>
+                            <li><span>Contributed to platform engineering for <b>DN Media Group</b>'s edge and
+                                    gateway tier: <b>Kong API Gateway, Varnish, and Fastly</b>, managed through
+                                    <b>Terraform/OpenTofu</b>, including moving an API behind Kong and shifting
+                                    traffic from Varnish to Fastly.</span></li>
+                            <li><span>Set up <b>Fastly DDoS protection and Bot Manager</b>, and migrated
+                                    static-asset delivery from <b>AWS S3</b> to <b>Fastly Object Storage</b>.</span></li>
+                            <li><span>Ran <b>Kubernetes (EKS)</b> workloads with <b>ArgoCD</b> and
+                                    <b>Kustomize</b>: stage environments for eight publication sites, an <b>ARM64 (AWS
+                                        Graviton)</b> migration, log-shipping fixes and topology-aware routing.</span></li>
+                            <li><span>Extended shared <b>GitHub Actions</b> workflows with multi-platform
+                                    <b>ECR</b> image builds, coverage and test-failure reporting, policy checks, and
+                                    secret refresh during deployment.</span></li>
+                            <li><span>Built an <b>Uptime.com</b> monitoring dashboard (<b>NestJS, Vue</b>) that
+                                    shows live outage detail and explains incidents in plain language.</span></li>
                         </ul>
                     </div>
                     <footer class="panel-foot">
@@ -75,6 +81,8 @@
                             <span class="chip">Kong</span><span class="chip">Varnish</span><span
                                 class="chip">Fastly</span>
                             <span class="chip">Terraform/OpenTofu</span><span class="chip">GitHub Actions</span>
+                            <span class="chip">Elastic Cloud</span><span class="chip">NestJS</span><span
+                                class="chip">Vue</span>
                         </div>
                     </footer>
                 </article>
