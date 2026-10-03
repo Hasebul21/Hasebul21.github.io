@@ -1341,20 +1341,23 @@ a.skill-card:hover h3 {
    Each role is one full-width horizontal card: title, company and dates on
    the left, achievements and stack on the right. Stacks below 900px. */
 #experience .card-grid,
-#publications .card-grid {
+#publications .card-grid,
+#education .card-grid {
   grid-template-columns: minmax(0, 1fr);
 }
 
 @media (min-width: 900px) {
   #experience .panel,
-  #publications .panel {
+  #publications .panel,
+  #education .panel {
     display: grid;
     grid-template-columns: 280px minmax(0, 1fr);
     grid-template-rows: 1fr auto;
   }
 
   #experience .panel-head,
-  #publications .panel-head {
+  #publications .panel-head,
+  #education .panel-head {
     grid-column: 1;
     grid-row: 1 / span 2;
     border-bottom: 0;
@@ -1367,13 +1370,15 @@ a.skill-card:hover h3 {
   }
 
   #experience .panel-main,
-  #publications .panel-main {
+  #publications .panel-main,
+  #education .panel-main {
     grid-column: 2;
     grid-row: 1;
   }
 
   #experience .panel-foot,
-  #publications .panel-foot {
+  #publications .panel-foot,
+  #education .panel-foot {
     grid-column: 2;
     grid-row: 2;
   }
