@@ -67,7 +67,7 @@ Tech: Next.js · React · Prisma · PostgreSQL · Tailwind
 
 Live: https://trackrjobs.vercel.app/ · GitHub: https://github.com/Hasebul21/trackr.jobs
 
-### Trading Portfolio Platform
+### TradeFlow (trading portfolio platform)
 A stock portfolio dashboard for transactions, holdings, and P&L analytics with live market data integration.
 
 Tech: Next.js · TypeScript · Supabase · PostgreSQL · Market Data APIs
