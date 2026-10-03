@@ -1173,18 +1173,26 @@ a.skill-card:hover h3 {
   grid-column: 1 / -1;
 }
 
-/* ============================================================ MASONRY
-   site.js adds .is-masonry when a grid has 2+ columns and gives each card
-   a row span equal to its height, so cards pack upward with no gaps while
-   keeping left-to-right order. Without JS the plain grid applies. */
-.card-grid.is-masonry {
-  grid-auto-rows: 1px;
-  row-gap: 0;
-  align-items: start;
+/* ============================================================ ROWS
+   Cards line up row by row: every card in a row takes the height of the
+   tallest one, and the footer (links) sits at the bottom of each card. */
+.card-grid {
+  align-items: stretch;
 }
 
-.card-grid.is-masonry > * {
-  margin-bottom: 20px;
+.card-grid > .panel .panel-main {
+  flex: 1 1 auto;
+}
+
+/* four projects read best as a 2 x 2 grid */
+#projects .card-grid {
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr));
+}
+
+@media (min-width: 900px) {
+  #projects .card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 /* ============================================================ ACHIEVEMENTS LIST
