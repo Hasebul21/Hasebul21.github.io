@@ -14,23 +14,23 @@ My recent work includes platform and edge systems, monitoring, delivery automati
 
 ## Experience
 
-### Senior Software Engineer — Cefalo Bangladesh Ltd.
+### Software Engineer II — Cefalo Bangladesh Ltd.
 February 2026 – Present
 
 - Contributed to platform engineering for DN Media Group across Kong, Varnish, Fastly, Kubernetes, ArgoCD, Kustomize, and shared GitHub Actions workflows.
 
-### Software Engineer — Cefalo Bangladesh Ltd.
+### Software Engineer I — Cefalo Bangladesh Ltd.
 February 2024 – January 2026
 
 - Contributed to an applicant-tracking platform using TypeScript, NestJS, React, and role-based access control.
 - Improved archive document import and export performance through PostgreSQL indexing and caching.
 - Worked with monitoring, log analysis, and delivery workflows using ELK, Docker, GitHub Actions, and AWS EC2.
-- Supported feature development, bug fixing, customer support, and Agile delivery.
+- Supported feature development, bug fixing, production support, and Agile delivery.
 
 ### Associate Software Engineer — Cefalo Bangladesh Ltd.
 June 2022 – January 2024
 
-- Built and maintained backend REST services using Java, Spring Boot, and Hibernate, with JUnit and Mockito test coverage.
+- Built and maintained backend REST services using Java and Spring Boot, with JUnit and Mockito test coverage.
 - Built and maintained booking workflows using Java, Spring Boot, and Angular.
 - Implemented Angular internationalization for the Zaui booking platform across 20+ markets.
 
@@ -56,10 +56,19 @@ Kubernetes · ArgoCD · Kustomize · Terraform · Kong · Varnish · Fastly · G
 
 ## Selected Projects
 
+### Trackr.jobs
+Aggregator for international software-engineering jobs with visa sponsorship: pulls job boards, company ATS feeds and remote platforms into one schema, scores relevance, deduplicates, and refreshes daily via Vercel cron.
+
+Tech: Next.js · React · Prisma · PostgreSQL · Tailwind
+
+Live: https://trackrjobs.vercel.app/ · GitHub: https://github.com/Hasebul21/trackr.jobs
+
 ### Trading Portfolio Platform
 A stock portfolio dashboard for transactions, holdings, and P&L analytics with live market data integration.
 
 Tech: Next.js · TypeScript · Supabase · PostgreSQL · Market Data APIs
+
+Live: https://tardeflow.vercel.app/
 
 
 ### QuickChat
@@ -67,7 +76,7 @@ A real-time messaging platform built with WebSockets, Redis caching, and Elastic
 
 Tech: Java · Spring Boot · Angular · PostgreSQL · Redis · Elasticsearch · Docker
 
-GitHub: https://github.com/Hasebul21/quick-chat
+Live: https://quickchat-one-chi.vercel.app/ · GitHub: https://github.com/Hasebul21/quick-chat
 
 ### TODAYTECHBLOG
 A full-stack blog platform with CRUD workflows and a strong focus on maintainability and test coverage.
