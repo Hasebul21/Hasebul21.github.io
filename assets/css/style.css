@@ -266,7 +266,9 @@ li::marker {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 4px 22px;
+  justify-content: flex-end;
+  margin-left: auto;
+  gap: 6px 34px;
 }
 
 .nav-link {
@@ -1214,4 +1216,42 @@ a.skill-card:hover h3 {
 
 .contact-list a {
   overflow-wrap: anywhere;
+}
+
+/* ============================================================ ABOUT PAGE
+   Sub-blocks of the single About section: spacing instead of divider
+   lines, and larger figures for the at-a-glance row. */
+.about-block {
+  margin-top: 44px;
+}
+
+.about-block .eyebrow {
+  margin-bottom: 14px;
+}
+
+.about-stats {
+  padding: 0;
+  gap: 20px 32px;
+}
+
+.about-stats .stat {
+  border-left: 2px solid var(--indigo);
+  padding-left: 14px;
+}
+
+.about-stats .num {
+  display: block;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.about-stats .lbl {
+  display: block;
+  margin-top: 4px;
+}
+
+.about-list {
+  max-width: 64ch;
 }
