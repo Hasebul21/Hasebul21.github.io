@@ -1219,39 +1219,111 @@ a.skill-card:hover h3 {
 }
 
 /* ============================================================ ABOUT PAGE
-   Sub-blocks of the single About section: spacing instead of divider
-   lines, and larger figures for the at-a-glance row. */
+   Bio, Now, Experience timeline and Research as plain lists separated
+   by spacing; no divider lines, cards or stat boxes. The portrait sits
+   beside the intro on desktop and above it on narrow screens. */
+.about-intro {
+  grid-template-columns: minmax(0, 64ch) auto;
+  align-items: center;
+}
+
+.about-intro .hero-photo {
+  justify-self: start;
+}
+
+.about-intro h1 {
+  font-size: 2.5rem;
+}
+
+.about-descriptor {
+  margin: 8px 0 18px;
+  color: var(--graphite);
+  font-size: 1.0625rem;
+}
+
+.about-intro .hero-photo img {
+  width: 132px;
+  height: 132px;
+}
+
 .about-block {
   margin-top: 44px;
+  max-width: 72ch;
 }
 
 .about-block .eyebrow {
   margin-bottom: 14px;
 }
 
-.about-stats {
-  padding: 0;
-  gap: 20px 32px;
-}
-
-.about-stats .stat {
-  border-left: 2px solid var(--indigo);
-  padding-left: 14px;
-}
-
-.about-stats .num {
-  display: block;
-  font-size: 2.25rem;
-  font-weight: 700;
-  line-height: 1.1;
-  letter-spacing: -0.02em;
-}
-
-.about-stats .lbl {
-  display: block;
-  margin-top: 4px;
+.about-stamp {
+  margin: -8px 0 12px;
+  color: var(--graphite);
+  font-size: 0.875rem;
 }
 
 .about-list {
   max-width: 64ch;
+}
+
+.about-timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.about-timeline li {
+  margin-bottom: 16px;
+}
+
+.about-timeline li:last-child {
+  margin-bottom: 0;
+}
+
+.about-role {
+  margin: 0;
+  color: var(--ink-strong);
+}
+
+.about-when {
+  color: var(--graphite);
+  font-variant-numeric: tabular-nums;
+}
+
+.about-impact {
+  margin: 2px 0 0;
+  color: var(--graphite);
+}
+
+.about-closing {
+  margin-top: 44px;
+  max-width: 72ch;
+}
+
+.about-links {
+  list-style: none;
+  margin: 28px 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 22px;
+}
+
+@media (max-width: 900px) {
+  .about-intro {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 20px;
+  }
+
+  .about-intro .hero-photo {
+    order: -1;
+  }
+
+  .about-intro .hero-photo img {
+    width: 104px;
+    height: 104px;
+  }
+
+  .about-intro h1 {
+    font-size: 2.125rem;
+  }
 }
