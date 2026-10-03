@@ -4,8 +4,8 @@
    Clean light theme. White ground, sky-blue for links and interaction,
    indigo for structure.
 
-   Type: Space Grotesk for headings, Inter for prose and UI,
-   JetBrains Mono for small metadata (eyebrows, dates, tags).
+   Type: IBM Plex Sans for headings and prose, IBM Plex Mono for labels and UI,
+   (eyebrows, dates, tags).
 
    Layout is unchanged: a 1200px container and an auto-fitting card
    grid of panels (header / body / footer divided by hairlines).
@@ -46,9 +46,9 @@
   --navy-dark: var(--cyan-hover);
   --paper: var(--bg);
 
-  --font-display: 'Space Grotesk', 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
-  --font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
-  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --font-display: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-body: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 
   --radius: 10px;
   --radius-s: 6px;
