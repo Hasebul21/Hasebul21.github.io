@@ -75,12 +75,12 @@ Tech: Next.js · TypeScript · Supabase · PostgreSQL · Market Data APIs
 Live: https://tardeflow.vercel.app/
 
 
-### QuickChat
-A real-time messaging platform built with WebSockets, authentication, Redis caching, and Elasticsearch-backed search.
+### Hangout Hub
+Small social app with one-to-one real-time chat, posts with likes and comments, live trending posts and online presence.
 
-Tech: Java · Spring Boot · Angular · PostgreSQL · Redis · Elasticsearch · Docker
+Tech: NestJS · Angular · PostgreSQL · Socket.IO · Docker
 
-Live: https://quickchat-one-chi.vercel.app/ · GitHub: https://github.com/Hasebul21/quick-chat
+Live: https://hangout-hub.vercel.app/ · GitHub: https://github.com/Hasebul21/hangout-hub
 
 ### DevDiary
 Tech blog with a Spring Boot REST API and a React frontend: JWT sign-in, owner-only editing, search, tags, comments and likes, with 90%+ unit-test coverage.
