@@ -1335,3 +1335,35 @@ a.skill-card:hover h3 {
     font-size: 2.125rem;
   }
 }
+
+/* ============================================================ EXPERIENCE ROWS
+   Each role is one full-width horizontal card: title, company and dates on
+   the left, achievements and stack on the right. Stacks below 900px. */
+#experience .card-grid {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+@media (min-width: 900px) {
+  #experience .panel {
+    display: grid;
+    grid-template-columns: 280px minmax(0, 1fr);
+    grid-template-rows: 1fr auto;
+  }
+
+  #experience .panel-head {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    border-bottom: 0;
+    border-right: 1px solid var(--line);
+  }
+
+  #experience .panel-main {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  #experience .panel-foot {
+    grid-column: 2;
+    grid-row: 2;
+  }
+}
