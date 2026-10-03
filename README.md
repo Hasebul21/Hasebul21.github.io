@@ -81,6 +81,8 @@ GitHub: https://github.com/Hasebul21/TechBlog_RestAPI_Spring
 ## Publications
 
 ORCID: https://orcid.org/0009-0000-7889-5412
+Google Scholar: https://scholar.google.com/citations?user=2Nk0_hIAAAAJ
+ResearchGate: https://www.researchgate.net/profile/Hasebul-Hassan-Chowdhury
 
 ### Comparative Machine Learning Analysis of Gen Z’s Clothing Consumption Behavior
 S. Ul Haque, H. H. Chowdhury, S. K. Ahmed, V. Jishan, M. R. Hossain, S. K. Ghosh
@@ -116,7 +118,10 @@ CGPA: 3.58/4.00
 - 2100+ competitive programming problems solved (historical total)
 - Top 7.6% global profile record with 800+ problems solved
 - Team honorable mentions in regional programming contests and AIUB contests
+- Claude Certified Architect - Foundations (Anthropic), issued Sep 2026, valid through Sep 2027
 - Completed the 300-hour Data Science Modelling, Integration & Processing course
+- Youth leadership and volunteering: BYLC Youth Leadership Summit 2023, CareerX (2023), Effective Leadership Training for Professionals (2022) and ACE programme; participation in the Bangladesh Youth Volunteer Award programme (2023); BD Clean Movement volunteer (2019); BYLCx Public Speaking online course (2018); AIUB Computer Club Certificate of Appreciation
+- Online course completions (not vendor certifications): AWS Cloud Practitioner CLF-C02 course, Docker and Kubernetes, The Ultimate Design Patterns, SQL and PostgreSQL, Hibernate and JPA with Spring Boot, Kotlin for Java Developers, The Complete Angular Course
 
 ## Languages
 

@@ -692,6 +692,102 @@ a.skill-card h3 {
   font-weight: 400;
 }
 
+/* ============================================================ CERTIFICATES
+   A bordered thumbnail that links to the full image; site.js opens
+   it in a <dialog> lightbox instead when JS is available. */
+.cert-thumb {
+  display: block;
+  width: min(100%, 280px);
+  margin-top: 12px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.panel-links + .cert-thumb {
+  margin-top: 10px;
+}
+
+.cert-thumb img {
+  width: 100%;
+  height: auto;
+}
+
+.cert-thumb:hover {
+  border-color: var(--navy);
+}
+
+.cert-thumb:focus-visible {
+  outline: 2px solid var(--navy);
+  outline-offset: 2px;
+}
+
+.lightbox {
+  padding: 0;
+  max-width: 92vw;
+  max-height: 90vh;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.lightbox::backdrop {
+  background: rgba(0, 0, 0, 0.72);
+}
+
+.lightbox-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px 16px 16px;
+}
+
+.lightbox-bar {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.lightbox-caption {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 0.9375rem;
+  font-weight: 600;
+}
+
+.lightbox-close {
+  flex: none;
+  font-family: var(--font-display);
+  font-size: 0.875rem;
+  color: var(--ink);
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  padding: 4px 12px;
+  cursor: pointer;
+}
+
+.lightbox-close:hover {
+  border-color: var(--navy);
+  color: var(--navy);
+}
+
+.lightbox-close:focus-visible {
+  outline: 2px solid var(--navy);
+  outline-offset: 2px;
+}
+
+.lightbox-img {
+  width: auto;
+  height: auto;
+  max-width: calc(92vw - 34px);
+  max-height: calc(90vh - 90px);
+  margin: 0 auto;
+  object-fit: contain;
+}
+
 /* ============================================================ FOOTER */
 .footer {
   font-family: var(--font-display);
