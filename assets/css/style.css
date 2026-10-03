@@ -1160,11 +1160,19 @@ a.skill-card:hover h3 {
 }
 
 /* consecutive card sections on one page: tighter seam between them */
+#skills:has(+ #certifications),
 #achievements:has(+ #certifications) {
   padding-bottom: 20px;
 }
 
+#skills + #certifications,
 #achievements + #certifications {
   padding-top: 8px;
   border-top: 0;
+}
+
+/* the course list always takes the full row, also below 900px where the
+   generic .span-all reset applies */
+#certifications .card-grid .span-all {
+  grid-column: 1 / -1;
 }
