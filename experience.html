@@ -60,18 +60,21 @@
                         <ul class="impact">
                             <li><span>Contributed to platform engineering for <b>DN Media Group</b>'s edge and
                                     gateway tier: <b>Kong API Gateway, Varnish, and Fastly</b>, managed through
-                                    <b>Terraform/OpenTofu</b>, including moving an API behind Kong and shifting
-                                    traffic from Varnish to Fastly.</span></li>
+                                    <b>Terraform/OpenTofu</b>, including moving an API behind Kong and redirecting
+                                    API consumers from Varnish to Fastly.</span></li>
                             <li><span>Set up <b>Fastly DDoS protection and Bot Manager</b>, and migrated
                                     static-asset delivery from <b>AWS S3</b> to <b>Fastly Object Storage</b>.</span></li>
-                            <li><span>Ran <b>Kubernetes (EKS)</b> workloads with <b>ArgoCD</b> and
-                                    <b>Kustomize</b>: stage environments for eight publication sites, an <b>ARM64 (AWS
-                                        Graviton)</b> migration, log-shipping fixes and topology-aware routing.</span></li>
+                            <li><span>Contributed to <b>Kubernetes (EKS)</b> workloads with <b>ArgoCD</b> and
+                                    <b>Kustomize</b>: stage environments for 8 publication sites, log-shipping fixes,
+                                    topology-aware routing and an <b>arm64 (AWS Graviton)</b> migration.</span></li>
                             <li><span>Extended shared <b>GitHub Actions</b> workflows with multi-platform
                                     <b>ECR</b> image builds, coverage and test-failure reporting, policy checks, and
                                     secret refresh during deployment.</span></li>
                             <li><span>Built an <b>Uptime.com</b> monitoring dashboard (<b>NestJS, Vue</b>) that
                                     shows live outage detail and explains incidents in plain language.</span></li>
+                            <li><span>Built an <b>AI code-review agent</b> on <b>Amazon Bedrock AgentCore</b>
+                                    (Claude Agent SDK) that runs parallel reviewers on GitHub pull requests and
+                                    verifies each finding before posting.</span></li>
                         </ul>
                     </div>
                     <footer class="panel-foot">
@@ -82,7 +85,7 @@
                                 class="chip">Fastly</span>
                             <span class="chip">Terraform/OpenTofu</span><span class="chip">GitHub Actions</span>
                             <span class="chip">Elastic Cloud</span><span class="chip">NestJS</span><span
-                                class="chip">Vue</span>
+                                class="chip">Vue</span><span class="chip">Amazon Bedrock</span>
                         </div>
                     </footer>
                 </article>
