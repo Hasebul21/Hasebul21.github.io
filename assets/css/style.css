@@ -1432,3 +1432,32 @@ a.skill-card:hover h3 {
   margin-top: 0;
   padding: 6px;
 }
+
+/* ============================================================ LEADERSHIP ROWS
+   Leadership cards follow the experience layout: one full-width
+   horizontal card each, title and organiser on the left, bullets and
+   the certificate thumbnail on the right. Stacks below 900px. */
+#leadership .card-grid {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+#leadership .cert-thumb {
+  margin-top: 14px;
+}
+
+@media (min-width: 900px) {
+  #leadership .panel {
+    display: grid;
+    grid-template-columns: 280px minmax(0, 1fr);
+  }
+
+  #leadership .panel-head {
+    grid-column: 1;
+    border-bottom: 0;
+    border-right: 1px solid var(--line);
+  }
+
+  #leadership .panel-main {
+    grid-column: 2;
+  }
+}
