@@ -125,7 +125,7 @@ CGPA: 3.58/4.00
 - 10th, Intra AIUB Programming Contest (Fall 2021–22); 6th, AIUB CS Fest Programming Contest (2018)
 - Claude Certified Architect - Foundations (Anthropic), issued Sep 2026, valid through Sep 2027
 - Completed the 300-hour Data Science Modelling, Integration & Processing course
-- Youth leadership and volunteering: BYLC Youth Leadership Summit 2023 and ACE programme; participation in the Bangladesh Youth Volunteer Award programme (2023); BD Clean Movement volunteer (2019); AIUB Computer Club organising team (QA seminars 2020–2022, Cyber Gaming Fest 2018 and 2022, Samsung Esports Championship 2019, JARVIS carnival 2021) and Certificate of Appreciation; Certificate of Appreciation for AIUB Cyber Gaming Fest 2022
+- Youth leadership and volunteering: BYLC ACE programme; participation in the Bangladesh Youth Volunteer Award programme (2023); BD Clean Movement volunteer (2019); AIUB Computer Club organising team (QA seminars 2020–2022, Cyber Gaming Fest 2018 and 2022, Samsung Esports Championship 2019, JARVIS carnival 2021) and Certificate of Appreciation; Certificate of Appreciation for AIUB Cyber Gaming Fest 2022
 - Online course completions (not vendor certifications): AWS Cloud Practitioner CLF-C02 course, Docker and Kubernetes, The Ultimate Design Patterns, SQL and PostgreSQL, Hibernate and JPA with Spring Boot, Kotlin for Java Developers, The Complete Angular Course
 
 ## Languages
