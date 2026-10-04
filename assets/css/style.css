@@ -1146,7 +1146,7 @@ a.skill-card:hover h3 {
 
 #leadership .cert-thumb,
 #certifications .cert-thumb {
-  width: 100%;
+  width: min(100%, 190px);
   margin-top: auto;
 }
 
