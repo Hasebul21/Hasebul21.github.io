@@ -1417,3 +1417,18 @@ a.skill-card:hover h3 {
   grid-template-columns: minmax(0, 1fr);
   max-width: 72ch;
 }
+
+/* ============================================================ CERT ROW
+   Small side-by-side certificate thumbnails inside a card. */
+.cert-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.cert-row .cert-thumb {
+  width: min(100%, 190px);
+  margin-top: 0;
+  padding: 6px;
+}
