@@ -1461,3 +1461,23 @@ a.skill-card:hover h3 {
     grid-column: 2;
   }
 }
+
+@media (min-width: 900px) {
+  /* paragraph and certificate thumbnail side by side to keep cards short */
+  #leadership .panel-main {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  #leadership .panel-body {
+    flex: 1 1 auto;
+    margin-bottom: 0;
+  }
+
+  #leadership .cert-thumb {
+    flex: none;
+    width: 170px;
+    margin-top: 0;
+  }
+}
