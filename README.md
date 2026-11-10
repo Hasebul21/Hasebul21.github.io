@@ -126,7 +126,7 @@ CGPA: 3.58/4.00
 
 ## Achievements
 
-- Third place ($400), Wildcard [Tinkerer] track, Open Agent Hackathon 2026 (GenAI.Works, online, 22–27 Oct 2026; 5,973 builders took part, in teams of 1–5), with Tradeflow, a Dhaka Stock Exchange portfolio ledger with review agents that check each trade before it is saved. [Results (screenshot)](https://hasebul21.github.io/assets/img/certificates/open-agent-hackathon-2026-results.jpg) · [Certificate of Participation](https://hackathon-server.genai.works/api/v1/certificates/file/CERT-2026-PE6Q5/) · [Event page](https://hackathon.genai.works/event/open-agent-hackathon-2026) · [Code](https://github.com/Hasebul21/tradeflow)
+- Third place ($400), Wildcard [Tinkerer] track, Open Agent Hackathon 2026 (GenAI.Works, online, 22–27 Oct 2026; 5,973 builders in 547 teams took part), with Tradeflow, a Dhaka Stock Exchange portfolio ledger with review agents that check each trade before it is saved. [Results (screenshot)](https://hasebul21.github.io/assets/img/certificates/open-agent-hackathon-2026-results.jpg) · [Certificate of Participation](https://hackathon-server.genai.works/api/v1/certificates/file/CERT-2026-PE6Q5/) · [Event page](https://hackathon.genai.works/event/open-agent-hackathon-2026) · [Code](https://github.com/Hasebul21/tradeflow)
 - 2100+ competitive programming problems solved (historical total)
 - LeetCode: 800+ problems solved, top 7.6% global rank (historical profile record)
 - Team Honorable Mentions, Asia Dhaka Regional Site Online Preliminary Contest (2019 and 2021)
