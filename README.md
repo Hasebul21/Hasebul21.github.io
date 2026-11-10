@@ -61,7 +61,7 @@ Kubernetes (EKS) · ArgoCD · Kustomize · Terraform · Kong · Varnish · Fastl
 ## Selected Projects
 
 ### Tradeflow
-Agents that explain a Dhaka Stock Exchange portfolio, check the reason recorded behind each trade and review a trade before it is saved, citing the query behind every number so each answer can be audited; a review tool on synthetic data, never trading advice. Third place ($400), Wildcard [Tinkerer] track, Open Agent Hackathon 2026 (GenAI.Works); the track scores only the new work, here the agents added to an existing portfolio ledger.
+Agents that explain a Dhaka Stock Exchange portfolio, check the reason recorded behind each trade and review a trade before it is saved, citing the query behind every number so each answer can be audited; a review tool on synthetic data, never trading advice. Third place ($400) in the Wildcard [Tinkerer] bonus track of the Open Agent Hackathon 2026 (GenAI.Works); the track scores only the new work, here the agents added to an existing portfolio ledger.
 
 Tech: TypeScript · Zetaris · Meterless · PostgreSQL · Docker
 
@@ -126,7 +126,7 @@ CGPA: 3.58/4.00
 
 ## Achievements
 
-- Third place ($400), Wildcard [Tinkerer] track, Open Agent Hackathon 2026 (GenAI.Works, online, 22–27 Oct 2026; 547 teams took part, 5,973 builders registered), with Tradeflow, a Dhaka Stock Exchange portfolio ledger with review agents that check each trade before it is saved. [Award ceremony video (21:40)](https://www.youtube.com/live/Wk4KrlNRPZM?t=1300) · [Certificate of Participation](https://hackathon-server.genai.works/api/v1/certificates/file/CERT-2026-PE6Q5/) · [Event page](https://hackathon.genai.works/event/open-agent-hackathon-2026) · [Code](https://github.com/Hasebul21/tradeflow)
+- Open Agent Hackathon 2026 (GenAI.Works, online, 22–27 Oct 2026; 547 teams took part, 5,973 builders registered): third place ($400) in the Wildcard [Tinkerer] bonus track, with Tradeflow, a Dhaka Stock Exchange portfolio ledger with review agents that check each trade before it is saved. [Award ceremony video (21:40)](https://www.youtube.com/live/Wk4KrlNRPZM?t=1300) · [Certificate of Participation](https://hackathon-server.genai.works/api/v1/certificates/file/CERT-2026-PE6Q5/) · [Event page](https://hackathon.genai.works/event/open-agent-hackathon-2026) · [Code](https://github.com/Hasebul21/tradeflow)
 - 2100+ competitive programming problems solved (historical total)
 - LeetCode: 800+ problems solved, top 7.6% global rank (historical profile record)
 - Team Honorable Mentions, Asia Dhaka Regional Site Online Preliminary Contest (2019 and 2021)
