@@ -120,7 +120,7 @@ IEEE ICSFT 2026 · Bengaluru, India · Published (oral presentation) · Fourth o
 
 ### B.Sc. in Computer Science and Engineering
 American International University-Bangladesh (AIUB)
-Spring 2017 – Spring 2024
+2018 – 2024 (Spring 2017–2018 to Spring 2023–2024)
 Degree awarded: 9 April 2025
 CGPA: 3.58/4.00
 
