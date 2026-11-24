@@ -26,7 +26,7 @@ February 2026 – Present
 ### Software Engineer I — Cefalo Bangladesh Ltd.
 February 2024 – January 2026
 
-- Contributed to an applicant-tracking platform using TypeScript, NestJS, React, role-based access control, and HackerRank integration.
+- Led four engineers on an applicant-tracking platform using TypeScript, NestJS, React, role-based access control, and HackerRank integration.
 - Improved archive document import and export performance through PostgreSQL indexing and Ehcache caching, cutting large imports from 3–4 minutes to under 1 minute.
 - Worked with monitoring, log analysis, and delivery workflows using ELK, Docker, GitHub Actions, and AWS EC2.
 - Supported feature development, bug fixing, production support, and Agile delivery.
