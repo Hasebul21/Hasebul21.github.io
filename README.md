@@ -70,7 +70,7 @@ GitHub: https://github.com/Hasebul21/tradeflow · Award ceremony video (21:40): 
 ### Trackr.jobs
 Aggregator for international software-engineering jobs, focused on visa sponsorship: pulls job boards, company ATS feeds and remote platforms into one schema, scores relevance, deduplicates, and refreshes daily via Vercel cron.
 
-Tech: Next.js · React · Prisma · PostgreSQL · Tailwind
+Tech: NestJS · Angular · Prisma · PostgreSQL · Tailwind
 
 Live: https://trackrjobs.vercel.app/ · GitHub: https://github.com/Hasebul21/trackr.jobs
 
@@ -100,11 +100,11 @@ IEEE ICSSAS 2026 · Erode, India · Published · Second of six authors
 
 ### AI-Enhanced Prediction of Respiratory Irritation From Biomass Combustion Byproducts
 S. Alam, A. Biswas, R. Islam, S. S. Rahman, H. H. Chowdhury, S. K. Ghosh
-IEEE ICCCES 2026 · Coimbatore, India · Accepted · Fifth of six authors
+IEEE ICCCES 2026 · Coimbatore, India · Published · Fifth of six authors
 
 ### Machine Learning-Based Early Risk Stratification Framework for Chronic Kidney Disease Progression
 M. Maniruzzaman, N. N. Nejum, M. J. Mamata, H. H. Chowdhury, F. A. Romit, S. K. Ghosh
-IEEE ICSFT 2026 · Bengaluru, India · Accepted (oral presentation) · Fourth of six authors
+IEEE ICSFT 2026 · Bengaluru, India · Published (oral presentation) · Fourth of six authors
 
 ## Research Interests
 
